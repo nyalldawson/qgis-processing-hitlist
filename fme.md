@@ -3,503 +3,502 @@
 
 FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 ---|---|---|---
-2DArcReplacer|N/A|Needs expression functions to create circular strings|
-2DBoxReplacer|N/A|Needs expression function to create rectangles|
-2DEllipseReplacer|N/A|Missing|
-2DForcer|Drop Z Value|Missing|
-2DGridAccumulator| | |
-2DGridCreator|Create grid|N/A|
-3DAffiner|||
-3DArcReplacer|||
-3DForcer|Set Z Value|Missing|
-3DInterpolator|Missing|N/A|Also desirable for m values
-3DRotator|||
-Affiner|Affine transform|Missing|
-AffineWarper|||
-AggregateFilter|Missing|"is_multipart" function missing| 
-Aggregator|Aggregate, Collect geometries|collect|
-AnchoredSnapper|Snap geometries to layer|Missing|Performance issues
-AngleConverter|N/A|radians/degrees|
-AngularityCalculator|N/A|Missing|
-AppearanceExtractor|N/A|N/A|Doesn't apply in QGIS
-AppearanceMerger|N/A|N/A|Doesn't apply in QGIS
-AppearanceRemover|N/A|N/A|Doesn't apply in QGIS
-AppearanceSetter|N/A|N/A|Doesn't apply in QGIS
-AppearanceStyler|N/A|N/A|Doesn't apply in QGIS
-ArcEstimator|Mssing|Missing|Port from PostGIS? Partial work at https://github.com/nyalldawson/QGIS/tree/convert_to_curves
-ArcPropertyExtractor|N/A|Missing|
-ArcPropertySetter|||
-ArcSDEGridSnapper|N/A|N/A|Doesn't apply in QGIS
-ArcSDEQuerier|N/A|N/A|Doesn't apply in QGIS
-ArcStroker|Segmentize by ...|Missing|
-AreaAmalgamator|||
-AreaBuilder|Polygonize|Missing|
-AreaCalculator|N/A|$area|
-AreaGapAndOverlap|||
-AreaOnAreaOverlayer|||
-AttributeCompressor|||
-AttributeCopier|Field calculator, Refactor fields|N/A|
-AttributeCreator|Add field to attributes table|N/A|
-AttributeDecompressor|||
-AttributeDereferencer|N/A|attribute()|
-AttributeEncoder|N/A|Missing|
-AttributeExploder| | |
-AttributeExposer|N/A|N/A|Doesn't apply in QGIS
-AttributeFileReader|Missing|Missing|
-AttributeFileWriter|Extract binary field|N/A|
-AttributeFilter|Extract by attribute, Feature filter|N/A|
-AttributeKeeper|||Not currently possible, but desirable for flexible models
-AttributeManager|Refactor fields|N/A|
-AttributePivoter|||possibly covered by "statistics by categories"
-AttributeRangeFilter|||
-AttributeRangeMapper|||
-AttributeRemover|Delete fields|N/A|
-AttributeRenamer|Missing|N/A|only possible using refactor fields, but that approach is not flexible
-AttributeReprojector|N/A|transform|
-AttributeRounder|N/A|round|
-AttributeSplitter|N/A|string_to_array|
-AttributeTrimmer|N/A|trim|
-AttributeValidator|||
-AttributeValueMapper|||
-AutodeskA360Connector|||
-BaseConverter|N/A|Missing|
-BinaryDecoder|N/A|Missing|
-BinaryEncoder|N/A|Missing|
-BMGReprojector|||
-BoundingBoxAccumulator|Extract layer extent|N/A|
-BoundingBoxReplacer|Bounding boxes|bounds|
-BoundsExtractor|N/A|x_min, x_max, y_min, y_max|Should add z/m min/max too
-BoxConnector|||
-Bufferer|Buffer|buffer|
-BulkAttributeRemover|||
-BulkAttributeRenamer|||
-CenterLineReplacer|||needs algorithm, non trivial!
-CenterPointExtractor|centroid, point on surface, pole of inaccessibility|centroid, point_on_surface, pole_of_inaccessibility|
-CenterPointReplacer|||
-ChangeDetector|Missing|N/A|
-CharacterCodeExtractor|N/A|Missing|
-CharacterCodeReplacer|N/A|char|
-ChartGenerator|||
-Chopper|||
-CircularityCalculator|Missing|N/A|
-Clipper|clip|intersection|
-Cloner|||
-ClosedCurveFilter|N/A|is_closed|
-CommonLocalReprojector|||
-CommonSegmentFinder|||
-ContourGenerator|GDAL Contours|N/A|
-ConvexityFilter|N/A|Needs "is_convex"/"is_concave" expression functions|
-CoordinateConcatenator|||
-CoordinateExtractor|Add x/y fields to layer|x/y/etc|
-CoordinateReplacer|||
-CoordinateRounder|Snap points to grid|Missing|
-CoordinateSwapper|Swap x and y coordinates|flip_coordinates|
-CoordinateSystemDescription|||
-CoordinateSystemExtractor|||
-CoordinateSystemRemover|||
-CoordinateSystemSetter|||
-Counter|Add autoincremental field|N/A|
-CRCCalculator|N/A|Missing|
-Creator|||
-CSGBuilder|||
-CSGEvaluator|||
-CsmapAttributeReprojector|||
-CsmapReprojector|||
-Curvefitter ⊛|||
-DatabaseDeleter|||
-DatabaseJoiner|||
-DatabaseUpdater|||
-DateTimeCalculator|N/A|Misc functions|
-DateTimeConverter|||
-DateTimeStamper|N/A|epoch(), now()|
-Deaggregator|Multipart to singleparts|Missing|
-Decelerator|||
-DecimalDegreesCalculator|N/A|Needs from_dms function|
-DEMDistanceCalculator|||
-DEMGenerator|||
-Densifier|Densify by count/Densify by distance|Missing|
-DensityCalculator|||
-DGNStyler|||
-DimensionExtractor|||
-DirectTweeter|||
-Displacer|||
-Dissolver|Dissolve|Union|
-DMSCalculator|N/A|to_dm, to_dms|
-DonutBridgeBuilder|||
-DonutBuilder|||
-DonutHoleExtractor|N/A|exterior_ring, interior_ring_n|
-DropboxConnector|||
-DuplicateFilter|Delete duplicate geometries, delete duplicates by attribute|N/A|
-DWGStyler|||
-ElevationExtractor|Extract z values|z|
-EllipsePropertyExtractor|||
-EllipsePropertySetter|||
-Emailer|||
-EnvironmentVariableFetcher|N/A|env|
-EsriReprojector|||
-ExcelStyler|||
-ExpressionEvaluator|Many|Many|
-Extruder|||
-FaceReplacer|||
-FeatureColorSetter|||
-FeatureHolder|||
-FeatureJoiner|Join attributes by field value, Join attributes by location|N/A|
-FeatureMerger|||
-FeatureReader|N/A|N/A|Vector file handling
-FeatureTypeExtractor|||
-FeatureTypeFilter|||
-FeatureWriter|N/A|N/A|Vector file writer
-FilenamePartExtractor|N/A|base_file_name, file_name, file_path|
-FMEFunctionCaller|||
-FMEServerJobSubmitter|||
-FMEServerJobWaiter|||
-FMEServerLogFileRetriever|||
-FMEServerNotifier|||
-FMEServerResource|||
-FTPCaller|Missing|N/A|
-GCMMessenger|||
-Generalizer|Simplify, smooth|simplify, smooth|
-Geocoder|||
-GeographicBufferer|||
-GeometryCoercer|Convert geometry type|N/A|
-GeometryColorSetter|||
-GeometryExtractor|N/A|geom_to_wkt|
-GeometryFilter|Missing|N/A|
-GeometryInstantiator|||
-GeometryPartExtractor|||
-GeometryPropertyExtractor|||
-GeometryPropertyRemover|||
-GeometryPropertyRenamer|||
-GeometryPropertySetter|||
-GeometryRefiner|||
-GeometryRemover|Drop geometries|N/A|
-GeometryReplacer|Geometry by expression|geom_from_wkt, etc|
-GeometryValidator|Validate geometries|is_valid|
-GeoRSSFeatureComposer|||
-GeoRSSFeatureReader|||
-GMLFeatureComposer|||
-GOIDGenerator|||
-GoogleDriveConnector|||
-GridInquestIIReprojector|||
-GridInquestReprojector|||
-GtransAttributeReprojector|||
-GtransReprojector|||
-HDFSConnector|||
-HoleCounter|N/A|num_interior_rings|
-HTMLExtractor|||
-HTMLLayouter|||
-HTMLReportGenerator|||
-HTMLToXHTMLConverter|||
-HTTPCaller|Missing|N/A|
-HullAccumulator|Convex hull, Concave hull|convex_hull|
-HullReplacer|||
-IFCPropertySetDefinition|||
-IFCQuantitySetDefinition|||
-ImageFetcher|||
-ImageRasterizer|Rasterize (GDAL), Convert map to raster, XYZ Tiles|N/A|
-InlineQuerier|||
-Inspector|||
-Intersector|||
-JavaScriptCaller|||
-JMSReceiver|||
-JMSSender|||
-JSONExtractor|||
-JSONFlattener|||
-JSONFormatter|||
-JSONFragmenter|||
-JSONTemplater|||
-JSONUpdater|||
-JSONValidator|||
-KinesisReceiver|||
-KinesisSender|||
-KMLPropertySetter|||
-KMLRegionSetter|||
-KMLStyler|||
-KMLTimeSetter|||
-KMLTourBuilder|||
-KMLViewSetter|||
-Labeller|||
-LabelPointReplacer|||
-LatLongToMGRSConverter|||
-LeftRightSpatialCalculator|||
-LengthCalculator|||
-LengthToPointCalculator|||
-LicenseChecker|||
-LineBuilder|||
-LineCloser|||
-LineCombiner|||
-LineExtender|||
-LineOnAreaOverlayer|||
-LineOnLineOverlayer|||
-ListBasedFeatureMerger|||
-ListBuilder|||
-ListConcatenator|||
-ListCopier|||
-ListDuplicateRemover|||
-ListElementCounter|||
-ListExploder|||
-ListExpressionPopulator|||
-ListHistogrammer|||
-ListIndexer|||
-ListPopulator|||
-ListRangeExtractor|||
-ListRenamer|||
-ListSearcher|||
-ListSorter|||
-ListSummer|||
-LocalCoordinateSystemSetter|||
-Logger|||
-LogMessageStreamer|||
-MapboxStyler|||
-MapInfoStyler|||
-MapnikRasterizer|||
-MapTextLabeller ⊛|||
-MapTextStyler|||
-Matcher|||
-MeasureExtractor|||
-MeasureGenerator|||
-MeasureRemover|||
-MeasureSetter|||
-MeshMerger|||
-MeshSimplifier|||
-MGRSToLatLongConverter|||
-MinimumAreaForcer|||
-MinimumSpanningCircle|||
-Replacer|||
-ModuloCounter|||
-MRF2DCleaner ⊛|||
-MRF2DConflator ⊛|||
-MRF2DDangleRemover ⊛|||
-MRF2DDuplicateRemover ⊛|||
-MRF2DExtender ⊛|||
-MRF2DGeneralizer ⊛|||
-MRF2DIntersector ⊛|||
-MRF2DJoiner ⊛|||
-MRF2DShortGeometry ⊛|||
-MRF3DCleaner ⊛|||
-MSWordStyler|||
-MultipleGeometryFilter|||
-MultipleGeometrySetter|||
-NeighborFinder|||
-NeighborhoodAggregator|||
-NeighborPairFinder|||
-NetworkCostCalculator|||
-NetworkFlowOrientor|||
-NetworkTopologyCalculator|||
-NullAttributeMapper|||
-NumericRasterizer|||
-OffsetCurveGenerator|||
-Offsetter|||
-OneDriveConnector|||
-OrientationExtractor|||
-Orientor|||
-ParameterFetcher|||
-PartCounter|||
-PathBuilder|||
-PathSplitter|||
-PDFPageFormatter|||
-PDFStyler|||
-PinterestConnector|||
-PlanarityFilter|||
-Player|||
-PointCloudCoercer|||
-PointCloudCombiner|||
-PointCloudComponent|||
-PointCloudComponent|||
-PointCloudComponent|||
-PointCloudComponent|||
-PointCloudComponent|||
-PointCloudComponent|||
-PointCloudConsumer|||
-PointCloudCreator|||
-PointCloudExpression|||
-PointCloudExtractor|||
-PointCloudFilter|||
-PointCloudMerger|||
-PointCloudOnRaster|||
-ComponentSetter|||
-PointCloudPropertyExtractor|||
-PointCloudReplacer|||
-PointCloudSimplifier|||
-PointCloudSorter|||
-PointCloudSplitter|||
-PointCloudStatistics|||
-PointCloudSurfaceBuilder|||
-PointCloudThinner|||
-PointCloudTransformation|||
-PointOnAreaOverlayer|||
-PointOnLineOverlayer|||
-PointOnPointOverlayer|||
-PointOnRasterValueExtractor|||
-PointPropertyExtractor|||
-PointPropertySetter|||
-PowerPointStyler|||
-PythonCaller|||
-PythonCreator|||
-RandomNumberGenerator|||
-RasterAspectCalculator|||
-RasterBandAdder|||
-RasterBandCombiner|||
-RasterBandInterpretation|||
-RasterBandKeeper|||
-RasterBandMinMaxExtractor|||
-RasterBandNameSetter|||
-RasterBandNodataRemover|||
-RasterBandNodataSetter|||
-RasterBandOrderer|||
-RasterBandPropertyExtractor|||
-RasterBandRemover|||
-RasterBandSeparator|||
-RasterCellCoercer|||
-RasterCellOriginSetter|||
-RasterCellValueCalculator|||
-RasterCellValueReplacer|||
-RasterCellValueRounder|||
-RasterCheckpointer|||
-RasterConsumer|||
-RasterDEMGenerator|||
-RasterExpressionEvaluator|||
-RasterExtentsCoercer|||
-RasterExtractor|||
-RasterGCPExtractor|||
-RasterGCPSetter|||
-RasterGeoreferencer|||
-RasterHillshader|||
-RasterInterpretationCoercer|||
-RasterMosaicker|||
-RasterNumericCreator|||
-RasterPaletteAdder|||
-RasterPaletteExtractor|||
-RasterPaletteGenerator|||
-RasterPaletteInterpretation|||
-RasterPaletteNodataSetter|||
-RasterPaletteRemover|||
-RasterPaletteResolver|||
-RasterPropertyExtractor|||
-RasterPyramider|||
-RasterReplacer|||
-RasterResampler|||
-RasterRGBCreator|||
-RasterRotationApplier|||
-RasterSelector|||
-RasterSingularCellValue|||
-RasterSlopeCalculator|||
-RasterSubsetter|||
-RasterTiler|||
-RasterToPolygonCoercer|||
-RCaller|||
-Recorder|||
-ReframeReprojector|||
-ReprojectAngleCalculator|||
-ReprojectLengthCalculator|||
-Reprojector|||
-Rotator|||
-RubberSheeter|||
-S3Connector|||
-S3Deleter|||
-S3Downloader|||
-S3ObjectLister|||
-S3Uploader|||
-SalesforceConnector|||
-Sampler|||
-Scaler|||
-SchemaMapper|||
-SecondOrderConformer|||
-SectorGenerator|||
-SharedItemAdder|||
-SharedItemIDExtractor|||
-SharedItemIDSetter|||
-SharedItemRetriever|||
-SherbendGeneralizer|||
-ShortestPathFinder|||
-SlackConnector|||
-Snapper|||
-Snipper|||
-SNSSender|||
-SolidBuilder|||
-Sorter|||
-SpatialFilter|||
-SpatialRelator|||
-SpikeRemover|||
-SQLCreator|||
-SQLExecutor|||
-SQSDeleter|||
-SQSMessageCounter|||
-SQSReceiver|||
-SQSSender|||
-StatisticsCalculator|||
-StreamOrderCalculator|||
-StreamPriorityCalculator|||
-StringCaseChanger|||
-StringConcatenator|||
-StringFormatter|||
-StringLengthCalculator|||
-StringPadder|||
-StringPairReplacer|||
-StringReplacer|||
-StringSearcher|||
-SubstringExtractor|||
-SummaryReporter|||
-SurfaceBuilder|||
-SurfaceDissolver|||
-SurfaceDraper|||
-SurfaceFootprintReplacer|||
-SurfaceModeller|||
-SurfaceOnSurfaceOverlayer|||
-SurfaceSplitter|||
-SystemCaller|||
-TclCaller|||
-TCPIPReceiver|||
-TCPIPSender|||
-TempPathnameCreator|||
-Terminator|||
-Tester|||
-TestFilter|||
-TextAdder|||
-TextDecoder|||
-TextEncoder|||
-TextLocationExtractor|||
-TextPropertyExtractor|||
-TextPropertySetter|||
-TextStroker|||
-TextureCoordinateSetter|||
-Tiler|||
-TINGenerator|||
-TopologyBuilder|||
-TraitMerger|||
-TransporterReceiver|||
-TransporterSender|||
-Triangulator|||
-Tweeter|||
-TweetSearcher|||
-TweetStreamer|||
-TwitterStatusFetcher|||
-UUIDGenerator|||
-VariableRetriever|||
-VariableSetter|||
-VectorOnRasterOverlayer|||
-VertexCounter|||
-VertexCreator|||
-VertexRemover|||
-VolumeCalculator|||
-VoronoiCellGenerator|||
-VoronoiDiagrammer|||
-WebMapTiler|||
-WebSocketReceiver|||
-WebSocketSender|||
-WhiteStarLeaseBuilder|||
-WorkspaceRunner|||
-XMLAppender|||
-XMLFeatureMapper|||
-XMLFlattener|||
-XMLFormatter|||
-XMLFragmenter|||
-XMLNamespaceDeclarer|||
-XMLSampleGenerator|||
-XMLTemplater|||
-XMLUpdater|||
-XMLValidator|||
-XMLXQueryExploder|||
-XMLXQueryExtractor|||
-XMLXQueryUpdater|||
-XSLTProcessor
+[2DArcReplacer](https://www.safe.com/transformers/2d-arc-replacer/)|N/A|Needs expression functions to create circular strings|
+[2DBoxReplacer](https://www.safe.com/transformers/2d-box-replacer/)|N/A|Needs expression function to create rectangles|
+[2DEllipseReplacer](https://www.safe.com/transformers/2d-ellipse-replacer/)|N/A|Missing|
+[2DForcer](https://www.safe.com/transformers/2d-forcer/)|Drop Z Value|Missing|
+[2DGridAccumulator](https://www.safe.com/transformers/2d-grid-accumulator/)| | |
+[2DGridCreator](https://www.safe.com/transformers/2d-grid-creator/)|Create grid|N/A|
+[3DAffiner](https://www.safe.com/transformers/3d-affiner/)|||
+[3DArcReplacer](https://www.safe.com/transformers/3d-arc-replacer/)|||
+[3DForcer](https://www.safe.com/transformers/3d-forcer/)|Set Z Value|Missing|
+[3DInterpolator](https://www.safe.com/transformers/3d-interpolator/)|Missing|N/A|Also desirable for m values
+[3DRotator](https://www.safe.com/transformers/3d-rotator/)|||
+[Affiner](https://www.safe.com/transformers/affiner/)|Affine transform|Missing|
+[AffineWarper](https://www.safe.com/transformers/affine-warper/)|||
+[AggregateFilter](https://www.safe.com/transformers/aggregate-filter/)|Missing|"is_multipart" function missing|
+[Aggregator](https://www.safe.com/transformers/aggregator/)|Aggregate, Collect geometries|collect|
+[AnchoredSnapper](https://www.safe.com/transformers/anchored-snapper/)|Snap geometries to layer|Missing|Performance issues
+[AngleConverter](https://www.safe.com/transformers/angle-converter/)|N/A|radians/degrees|
+[AngularityCalculator](https://www.safe.com/transformers/angularity-calculator/)|N/A|Missing|
+[AppearanceExtractor](https://www.safe.com/transformers/appearance-extractor/)|N/A|N/A|Doesn't apply in QGIS
+[AppearanceMerger](https://www.safe.com/transformers/appearance-merger/)|N/A|N/A|Doesn't apply in QGIS
+[AppearanceRemover](https://www.safe.com/transformers/appearance-remover/)|N/A|N/A|Doesn't apply in QGIS
+[AppearanceSetter](https://www.safe.com/transformers/appearance-setter/)|N/A|N/A|Doesn't apply in QGIS
+[AppearanceStyler](https://www.safe.com/transformers/appearance-styler/)|N/A|N/A|Doesn't apply in QGIS
+[ArcEstimator](https://www.safe.com/transformers/arc-estimator/)|Mssing|Missing|Port from PostGIS? Partial work at https://github.com/nyalldawson/QGIS/tree/convert_to_curves
+[ArcPropertyExtractor](https://www.safe.com/transformers/arc-property-extractor/)|N/A|Missing|
+[ArcPropertySetter](https://www.safe.com/transformers/arc-property-setter/)|||
+[ArcSDEGridSnapper](https://www.safe.com/transformers/arc-sdegrid-snapper/)|N/A|N/A|Doesn't apply in QGIS
+[ArcSDEQuerier](https://www.safe.com/transformers/arc-sdequerier/)|N/A|N/A|Doesn't apply in QGIS
+[ArcStroker](https://www.safe.com/transformers/arc-stroker/)|Segmentize by ...|Missing|
+[AreaAmalgamator](https://www.safe.com/transformers/area-amalgamator/)|||
+[AreaBuilder](https://www.safe.com/transformers/area-builder/)|Polygonize|Missing|
+[AreaCalculator](https://www.safe.com/transformers/area-calculator/)|N/A|$area|
+[AreaGapAndOverlap](https://www.safe.com/transformers/area-gap-and-overlap/)|||
+[AreaOnAreaOverlayer](https://www.safe.com/transformers/area-on-area-overlayer/)|||
+[AttributeCompressor](https://www.safe.com/transformers/attribute-compressor/)|||
+[AttributeCopier](https://www.safe.com/transformers/attribute-copier/)|Field calculator, Refactor fields|N/A|
+[AttributeCreator](https://www.safe.com/transformers/attribute-creator/)|Add field to attributes table|N/A|
+[AttributeDecompressor](https://www.safe.com/transformers/attribute-decompressor/)|||
+[AttributeDereferencer](https://www.safe.com/transformers/attribute-dereferencer/)|N/A|attribute()|
+[AttributeEncoder](https://www.safe.com/transformers/attribute-encoder/)|N/A|Missing|
+[AttributeExploder](https://www.safe.com/transformers/attribute-exploder/)| | |
+[AttributeExposer](https://www.safe.com/transformers/attribute-exposer/)|N/A|N/A|Doesn't apply in QGIS
+[AttributeFileReader](https://www.safe.com/transformers/attribute-file-reader/)|Missing|Missing|
+[AttributeFileWriter](https://www.safe.com/transformers/attribute-file-writer/)|Extract binary field|N/A|
+[AttributeFilter](https://www.safe.com/transformers/attribute-filter/)|Extract by attribute, Feature filter|N/A|
+[AttributeKeeper](https://www.safe.com/transformers/attribute-keeper/)|||Not currently possible, but desirable for flexible models
+[AttributeManager](https://www.safe.com/transformers/attribute-manager/)|Refactor fields|N/A|
+[AttributePivoter](https://www.safe.com/transformers/attribute-pivoter/)|||possibly covered by "statistics by categories"
+[AttributeRangeFilter](https://www.safe.com/transformers/attribute-range-filter/)|||
+[AttributeRangeMapper](https://www.safe.com/transformers/attribute-range-mapper/)|||
+[AttributeRemover](https://www.safe.com/transformers/attribute-remover/)|Delete fields|N/A|
+[AttributeRenamer](https://www.safe.com/transformers/attribute-renamer/)|Missing|N/A|only possible using refactor fields, but that approach is not flexible
+[AttributeReprojector](https://www.safe.com/transformers/attribute-reprojector/)|N/A|transform|
+[AttributeRounder](https://www.safe.com/transformers/attribute-rounder/)|N/A|round|
+[AttributeSplitter](https://www.safe.com/transformers/attribute-splitter/)|N/A|string_to_array|
+[AttributeTrimmer](https://www.safe.com/transformers/attribute-trimmer/)|N/A|trim|
+[AttributeValidator](https://www.safe.com/transformers/attribute-validator/)|||
+[AttributeValueMapper](https://www.safe.com/transformers/attribute-value-mapper/)|||
+[AutodeskA360Connector](https://www.safe.com/transformers/autodesk-a360-connector/)|||
+[BaseConverter](https://www.safe.com/transformers/base-converter/)|N/A|Missing|
+[BinaryDecoder](https://www.safe.com/transformers/binary-decoder/)|N/A|Missing|
+[BinaryEncoder](https://www.safe.com/transformers/binary-encoder/)|N/A|Missing|
+[BMGReprojector](https://www.safe.com/transformers/bmgreprojector/)|||
+[BoundingBoxAccumulator](https://www.safe.com/transformers/bounding-box-accumulator/)|Extract layer extent|N/A|
+[BoundingBoxReplacer](https://www.safe.com/transformers/bounding-box-replacer/)|Bounding boxes|bounds|
+[BoundsExtractor](https://www.safe.com/transformers/bounds-extractor/)|N/A|x_min, x_max, y_min, y_max|Should add z/m min/max too
+[BoxConnector](https://www.safe.com/transformers/box-connector/)|||
+[Bufferer](https://www.safe.com/transformers/bufferer/)|Buffer|buffer|
+[BulkAttributeRemover](https://www.safe.com/transformers/bulk-attribute-remover/)|||
+[BulkAttributeRenamer](https://www.safe.com/transformers/bulk-attribute-renamer/)|||
+[CenterLineReplacer](https://www.safe.com/transformers/center-line-replacer/)|||needs algorithm, non trivial!
+[CenterPointExtractor](https://www.safe.com/transformers/center-point-extractor/)|centroid, point on surface, pole of inaccessibility|centroid, point_on_surface, pole_of_inaccessibility|
+[CenterPointReplacer](https://www.safe.com/transformers/center-point-replacer/)|||
+[ChangeDetector](https://www.safe.com/transformers/change-detector/)|Missing|N/A|
+[CharacterCodeExtractor](https://www.safe.com/transformers/character-code-extractor/)|N/A|Missing|
+[CharacterCodeReplacer](https://www.safe.com/transformers/character-code-replacer/)|N/A|char|
+[ChartGenerator](https://www.safe.com/transformers/chart-generator/)|||
+[Chopper](https://www.safe.com/transformers/chopper/)|||
+[CircularityCalculator](https://www.safe.com/transformers/circularity-calculator/)|Missing|N/A|
+[Clipper](https://www.safe.com/transformers/clipper/)|clip|intersection|
+[Cloner](https://www.safe.com/transformers/cloner/)|||
+[ClosedCurveFilter](https://www.safe.com/transformers/closed-curve-filter/)|N/A|is_closed|
+[CommonLocalReprojector](https://www.safe.com/transformers/common-local-reprojector/)|||
+[CommonSegmentFinder](https://www.safe.com/transformers/common-segment-finder/)|||
+[ContourGenerator](https://www.safe.com/transformers/contour-generator/)|GDAL Contours|N/A|
+[ConvexityFilter](https://www.safe.com/transformers/convexity-filter/)|N/A|Needs "is_convex"/"is_concave" expression functions|
+[CoordinateConcatenator](https://www.safe.com/transformers/coordinate-concatenator/)|||
+[CoordinateExtractor](https://www.safe.com/transformers/coordinate-extractor/)|Add x/y fields to layer|x/y/etc|
+[CoordinateReplacer](https://www.safe.com/transformers/coordinate-replacer/)|||
+[CoordinateRounder](https://www.safe.com/transformers/coordinate-rounder/)|Snap points to grid|Missing|
+[CoordinateSwapper](https://www.safe.com/transformers/coordinate-swapper/)|Swap x and y coordinates|flip_coordinates|
+[CoordinateSystemDescription](https://www.safe.com/transformers/coordinate-system-description/)|||
+[CoordinateSystemExtractor](https://www.safe.com/transformers/coordinate-system-extractor/)|||
+[CoordinateSystemRemover](https://www.safe.com/transformers/coordinate-system-remover/)|||
+[CoordinateSystemSetter](https://www.safe.com/transformers/coordinate-system-setter/)|||
+[Counter](https://www.safe.com/transformers/counter/)|Add autoincremental field|N/A|
+[CRCCalculator](https://www.safe.com/transformers/crccalculator/)|N/A|Missing|
+[Creator](https://www.safe.com/transformers/creator/)|||
+[CSGBuilder](https://www.safe.com/transformers/csgbuilder/)|||
+[CSGEvaluator](https://www.safe.com/transformers/csgevaluator/)|||
+[CsmapAttributeReprojector](https://www.safe.com/transformers/csmap-attribute-reprojector/)|||
+[CsmapReprojector](https://www.safe.com/transformers/csmap-reprojector/)|||
+[Curvefitter](https://www.safe.com/transformers/curvefitter/)|||
+[DatabaseDeleter](https://www.safe.com/transformers/database-deleter/)|||
+[DatabaseJoiner](https://www.safe.com/transformers/database-joiner/)|||
+[DatabaseUpdater](https://www.safe.com/transformers/database-updater/)|||
+[DateTimeCalculator](https://www.safe.com/transformers/date-time-calculator/)|N/A|Misc functions|
+[DateTimeConverter](https://www.safe.com/transformers/date-time-converter/)|||
+[DateTimeStamper](https://www.safe.com/transformers/date-time-stamper/)|N/A|epoch(), now()|
+[Deaggregator](https://www.safe.com/transformers/deaggregator/)|Multipart to singleparts|Missing|
+[Decelerator](https://www.safe.com/transformers/decelerator/)|||
+[DecimalDegreesCalculator](https://www.safe.com/transformers/decimal-degrees-calculator/)|N/A|Needs from_dms function|
+[DEMDistanceCalculator](https://www.safe.com/transformers/demdistance-calculator/)|||
+[DEMGenerator](https://www.safe.com/transformers/demgenerator/)|||
+[Densifier](https://www.safe.com/transformers/densifier/)|Densify by count/Densify by distance|Missing|
+[DensityCalculator](https://www.safe.com/transformers/density-calculator/)|||
+[DGNStyler](https://www.safe.com/transformers/dgnstyler/)|||
+[DimensionExtractor](https://www.safe.com/transformers/dimension-extractor/)|||
+[DirectTweeter](https://www.safe.com/transformers/direct-tweeter/)|||
+[Displacer](https://www.safe.com/transformers/displacer/)|||
+[Dissolver](https://www.safe.com/transformers/dissolver/)|Dissolve|Union|
+[DMSCalculator](https://www.safe.com/transformers/dmscalculator/)|N/A|to_dm, to_dms|
+[DonutBridgeBuilder](https://www.safe.com/transformers/donut-bridge-builder/)|||
+[DonutBuilder](https://www.safe.com/transformers/donut-builder/)|||
+[DonutHoleExtractor](https://www.safe.com/transformers/donut-hole-extractor/)|N/A|exterior_ring, interior_ring_n|
+[DropboxConnector](https://www.safe.com/transformers/dropbox-connector/)|||
+[DuplicateFilter](https://www.safe.com/transformers/duplicate-filter/)|Delete duplicate geometries, delete duplicates by attribute|N/A|
+[DWGStyler](https://www.safe.com/transformers/dwgstyler/)|||
+[ElevationExtractor](https://www.safe.com/transformers/elevation-extractor/)|Extract z values|z|
+[EllipsePropertyExtractor](https://www.safe.com/transformers/ellipse-property-extractor/)|||
+[EllipsePropertySetter](https://www.safe.com/transformers/ellipse-property-setter/)|||
+[Emailer](https://www.safe.com/transformers/emailer/)|||
+[EnvironmentVariableFetcher](https://www.safe.com/transformers/environment-variable-fetcher/)|N/A|env|
+[EsriReprojector](https://www.safe.com/transformers/esri-reprojector/)|||
+[ExcelStyler](https://www.safe.com/transformers/excel-styler/)|||
+[ExpressionEvaluator](https://www.safe.com/transformers/expression-evaluator/)|Many|Many|
+[Extruder](https://www.safe.com/transformers/extruder/)|||
+[FaceReplacer](https://www.safe.com/transformers/face-replacer/)|||
+[FeatureColorSetter](https://www.safe.com/transformers/feature-color-setter/)|||
+[FeatureHolder](https://www.safe.com/transformers/feature-holder/)|||
+[FeatureJoiner](https://www.safe.com/transformers/feature-joiner/)|Join attributes by field value, Join attributes by location|N/A|
+[FeatureMerger](https://www.safe.com/transformers/feature-merger/)|||
+[FeatureReader](https://www.safe.com/transformers/feature-reader/)|N/A|N/A|Vector file handling
+[FeatureTypeExtractor](https://www.safe.com/transformers/feature-type-extractor/)|||
+[FeatureTypeFilter](https://www.safe.com/transformers/feature-type-filter/)|||
+[FeatureWriter](https://www.safe.com/transformers/feature-writer/)|N/A|N/A|Vector file writer
+[FilenamePartExtractor](https://www.safe.com/transformers/filename-part-extractor/)|N/A|base_file_name, file_name, file_path|
+[FMEFunctionCaller](https://www.safe.com/transformers/fmefunction-caller/)|||
+[FMEServerJobSubmitter](https://www.safe.com/transformers/fmeserver-job-submitter/)|||
+[FMEServerJobWaiter](https://www.safe.com/transformers/fmeserver-job-waiter/)|||
+[FMEServerLogFileRetriever](https://www.safe.com/transformers/fmeserver-log-file-retriever/)|||
+[FMEServerNotifier](https://www.safe.com/transformers/fmeserver-notifier/)|||
+[FMEServerResource](https://www.safe.com/transformers/fmeserver-resource/)|||
+[FTPCaller](https://www.safe.com/transformers/ftpcaller/)|Missing|N/A|
+[GCMMessenger](https://www.safe.com/transformers/gcmmessenger/)|||
+[Generalizer](https://www.safe.com/transformers/generalizer/)|Simplify, smooth|simplify, smooth|
+[Geocoder](https://www.safe.com/transformers/geocoder/)|||
+[GeographicBufferer](https://www.safe.com/transformers/geographic-bufferer/)|||
+[GeometryCoercer](https://www.safe.com/transformers/geometry-coercer/)|Convert geometry type|N/A|
+[GeometryColorSetter](https://www.safe.com/transformers/geometry-color-setter/)|||
+[GeometryExtractor](https://www.safe.com/transformers/geometry-extractor/)|N/A|geom_to_wkt|
+[GeometryFilter](https://www.safe.com/transformers/geometry-filter/)|Missing|N/A|
+[GeometryInstantiator](https://www.safe.com/transformers/geometry-instantiator/)|||
+[GeometryPartExtractor](https://www.safe.com/transformers/geometry-part-extractor/)|||
+[GeometryPropertyExtractor](https://www.safe.com/transformers/geometry-property-extractor/)|||
+[GeometryPropertyRemover](https://www.safe.com/transformers/geometry-property-remover/)|||
+[GeometryPropertyRenamer](https://www.safe.com/transformers/geometry-property-renamer/)|||
+[GeometryPropertySetter](https://www.safe.com/transformers/geometry-property-setter/)|||
+[GeometryRefiner](https://www.safe.com/transformers/geometry-refiner/)|||
+[GeometryRemover](https://www.safe.com/transformers/geometry-remover/)|Drop geometries|N/A|
+[GeometryReplacer](https://www.safe.com/transformers/geometry-replacer/)|Geometry by expression|geom_from_wkt, etc|
+[GeometryValidator](https://www.safe.com/transformers/geometry-validator/)|Validate geometries|is_valid|
+[GeoRSSFeatureComposer](https://www.safe.com/transformers/geo-rssfeature-composer/)|||
+[GeoRSSFeatureReader](https://www.safe.com/transformers/geo-rssfeature-reader/)|||
+[GMLFeatureComposer](https://www.safe.com/transformers/gmlfeature-composer/)|||
+[GOIDGenerator](https://www.safe.com/transformers/goidgenerator/)|||
+[GoogleDriveConnector](https://www.safe.com/transformers/google-drive-connector/)|||
+[GridInquestIIReprojector](https://www.safe.com/transformers/grid-inquest-iireprojector/)|||
+[GridInquestReprojector](https://www.safe.com/transformers/grid-inquest-reprojector/)|||
+[GtransAttributeReprojector](https://www.safe.com/transformers/gtrans-attribute-reprojector/)|||
+[GtransReprojector](https://www.safe.com/transformers/gtrans-reprojector/)|||
+[HDFSConnector](https://www.safe.com/transformers/hdfsconnector/)|||
+[HoleCounter](https://www.safe.com/transformers/hole-counter/)|N/A|num_interior_rings|
+[HTMLExtractor](https://www.safe.com/transformers/htmlextractor/)|||
+[HTMLLayouter](https://www.safe.com/transformers/htmllayouter/)|||
+[HTMLReportGenerator](https://www.safe.com/transformers/htmlreport-generator/)|||
+[HTMLToXHTMLConverter](https://www.safe.com/transformers/htmlto-xhtmlconverter/)|||
+[HTTPCaller](https://www.safe.com/transformers/httpcaller/)|Missing|N/A|
+[HullAccumulator](https://www.safe.com/transformers/hull-accumulator/)|Convex hull, Concave hull|convex_hull|
+[HullReplacer](https://www.safe.com/transformers/hull-replacer/)|||
+[IFCPropertySetDefinition](https://www.safe.com/transformers/ifcproperty-set-definition/)|||
+[IFCQuantitySetDefinition](https://www.safe.com/transformers/ifcquantity-set-definition/)|||
+[ImageFetcher](https://www.safe.com/transformers/image-fetcher/)|||
+[ImageRasterizer](https://www.safe.com/transformers/image-rasterizer/)|Rasterize (GDAL), Convert map to raster, XYZ Tiles|N/A|
+[InlineQuerier](https://www.safe.com/transformers/inline-querier/)|||
+[Inspector](https://www.safe.com/transformers/inspector/)|||
+[Intersector](https://www.safe.com/transformers/intersector/)|||
+[JavaScriptCaller](https://www.safe.com/transformers/java-script-caller/)|||
+[JMSReceiver](https://www.safe.com/transformers/jmsreceiver/)|||
+[JMSSender](https://www.safe.com/transformers/jmssender/)|||
+[JSONExtractor](https://www.safe.com/transformers/jsonextractor/)|||
+[JSONFlattener](https://www.safe.com/transformers/jsonflattener/)|||
+[JSONFormatter](https://www.safe.com/transformers/jsonformatter/)|||
+[JSONFragmenter](https://www.safe.com/transformers/jsonfragmenter/)|||
+[JSONTemplater](https://www.safe.com/transformers/jsontemplater/)|||
+[JSONUpdater](https://www.safe.com/transformers/jsonupdater/)|||
+[JSONValidator](https://www.safe.com/transformers/jsonvalidator/)|||
+[KinesisReceiver](https://www.safe.com/transformers/kinesis-receiver/)|||
+[KinesisSender](https://www.safe.com/transformers/kinesis-sender/)|||
+[KMLPropertySetter](https://www.safe.com/transformers/kmlproperty-setter/)|||
+[KMLRegionSetter](https://www.safe.com/transformers/kmlregion-setter/)|||
+[KMLStyler](https://www.safe.com/transformers/kmlstyler/)|||
+[KMLTimeSetter](https://www.safe.com/transformers/kmltime-setter/)|||
+[KMLTourBuilder](https://www.safe.com/transformers/kmltour-builder/)|||
+[KMLViewSetter](https://www.safe.com/transformers/kmlview-setter/)|||
+[Labeller](https://www.safe.com/transformers/labeller/)|||
+[LabelPointReplacer](https://www.safe.com/transformers/label-point-replacer/)|||
+[LatLongToMGRSConverter](https://www.safe.com/transformers/lat-long-to-mgrsconverter/)|||
+[LeftRightSpatialCalculator](https://www.safe.com/transformers/left-right-spatial-calculator/)|||
+[LengthCalculator](https://www.safe.com/transformers/length-calculator/)|||
+[LengthToPointCalculator](https://www.safe.com/transformers/length-to-point-calculator/)|||
+[LicenseChecker](https://www.safe.com/transformers/license-checker/)|||
+[LineBuilder](https://www.safe.com/transformers/line-builder/)|||
+[LineCloser](https://www.safe.com/transformers/line-closer/)|||
+[LineCombiner](https://www.safe.com/transformers/line-combiner/)|||
+[LineExtender](https://www.safe.com/transformers/line-extender/)|||
+[LineOnAreaOverlayer](https://www.safe.com/transformers/line-on-area-overlayer/)|||
+[LineOnLineOverlayer](https://www.safe.com/transformers/line-on-line-overlayer/)|||
+[ListBasedFeatureMerger](https://www.safe.com/transformers/list-based-feature-merger/)|||
+[ListBuilder](https://www.safe.com/transformers/list-builder/)|||
+[ListConcatenator](https://www.safe.com/transformers/list-concatenator/)|||
+[ListCopier](https://www.safe.com/transformers/list-copier/)|||
+[ListDuplicateRemover](https://www.safe.com/transformers/list-duplicate-remover/)|||
+[ListElementCounter](https://www.safe.com/transformers/list-element-counter/)|||
+[ListExploder](https://www.safe.com/transformers/list-exploder/)|||
+[ListExpressionPopulator](https://www.safe.com/transformers/list-expression-populator/)|||
+[ListHistogrammer](https://www.safe.com/transformers/list-histogrammer/)|||
+[ListIndexer](https://www.safe.com/transformers/list-indexer/)|||
+[ListPopulator](https://www.safe.com/transformers/list-populator/)|||
+[ListRangeExtractor](https://www.safe.com/transformers/list-range-extractor/)|||
+[ListRenamer](https://www.safe.com/transformers/list-renamer/)|||
+[ListSearcher](https://www.safe.com/transformers/list-searcher/)|||
+[ListSorter](https://www.safe.com/transformers/list-sorter/)|||
+[ListSummer](https://www.safe.com/transformers/list-summer/)|||
+[LocalCoordinateSystemSetter](https://www.safe.com/transformers/local-coordinate-system-setter/)|||
+[Logger](https://www.safe.com/transformers/logger/)|||
+[LogMessageStreamer](https://www.safe.com/transformers/log-message-streamer/)|||
+[MapboxStyler](https://www.safe.com/transformers/mapbox-styler/)|||
+[MapInfoStyler](https://www.safe.com/transformers/map-info-styler/)|||
+[MapnikRasterizer](https://www.safe.com/transformers/mapnik-rasterizer/)|||
+[MapTextLabeller](https://www.safe.com/transformers/map-text-labeller/)|||
+[MapTextStyler](https://www.safe.com/transformers/map-text-styler/)|||
+[Matcher](https://www.safe.com/transformers/matcher/)|||
+[MeasureExtractor](https://www.safe.com/transformers/measure-extractor/)|||
+[MeasureGenerator](https://www.safe.com/transformers/measure-generator/)|||
+[MeasureRemover](https://www.safe.com/transformers/measure-remover/)|||
+[MeasureSetter](https://www.safe.com/transformers/measure-setter/)|||
+[MeshMerger](https://www.safe.com/transformers/mesh-merger/)|||
+[MeshSimplifier](https://www.safe.com/transformers/mesh-simplifier/)|||
+[MGRSToLatLongConverter](https://www.safe.com/transformers/mgrsto-lat-long-converter/)|||
+[MinimumAreaForcer](https://www.safe.com/transformers/minimum-area-forcer/)|||
+[MinimumSpanningCircle](https://www.safe.com/transformers/minimum-spanning-circle/)|||
+[Replacer](https://www.safe.com/transformers/replacer/)|||
+[ModuloCounter](https://www.safe.com/transformers/modulo-counter/)|||
+[MRF2DCleaner](https://www.safe.com/transformers/mrf2dcleaner/)|||
+[MRF2DConflator](https://www.safe.com/transformers/mrf2dconflator/)|||
+[MRF2DDangleRemover](https://www.safe.com/transformers/mrf2ddangle-remover/)|||
+[MRF2DDuplicateRemover](https://www.safe.com/transformers/mrf2dduplicate-remover/)|||
+[MRF2DExtender](https://www.safe.com/transformers/mrf2dextender/)|||
+[MRF2DGeneralizer](https://www.safe.com/transformers/mrf2dgeneralizer/)|||
+[MRF2DIntersector](https://www.safe.com/transformers/mrf2dintersector/)|||
+[MRF2DJoiner](https://www.safe.com/transformers/mrf2djoiner/)|||
+[MRF2DShortGeometry](https://www.safe.com/transformers/mrf2dshort-geometry/)|||
+[MRF3DCleaner](https://www.safe.com/transformers/mrf3dcleaner/)|||
+[MSWordStyler](https://www.safe.com/transformers/msword-styler/)|||
+[MultipleGeometryFilter](https://www.safe.com/transformers/multiple-geometry-filter/)|||
+[MultipleGeometrySetter](https://www.safe.com/transformers/multiple-geometry-setter/)|||
+[NeighborFinder](https://www.safe.com/transformers/neighbor-finder/)|||
+[NeighborhoodAggregator](https://www.safe.com/transformers/neighborhood-aggregator/)|||
+[NeighborPairFinder](https://www.safe.com/transformers/neighbor-pair-finder/)|||
+[NetworkCostCalculator](https://www.safe.com/transformers/network-cost-calculator/)|||
+[NetworkFlowOrientor](https://www.safe.com/transformers/network-flow-orientor/)|||
+[NetworkTopologyCalculator](https://www.safe.com/transformers/network-topology-calculator/)|||
+[NullAttributeMapper](https://www.safe.com/transformers/null-attribute-mapper/)|||
+[NumericRasterizer](https://www.safe.com/transformers/numeric-rasterizer/)|||
+[OffsetCurveGenerator](https://www.safe.com/transformers/offset-curve-generator/)|||
+[Offsetter](https://www.safe.com/transformers/offsetter/)|||
+[OneDriveConnector](https://www.safe.com/transformers/one-drive-connector/)|||
+[OrientationExtractor](https://www.safe.com/transformers/orientation-extractor/)|||
+[Orientor](https://www.safe.com/transformers/orientor/)|||
+[ParameterFetcher](https://www.safe.com/transformers/parameter-fetcher/)|||
+[PartCounter](https://www.safe.com/transformers/part-counter/)|||
+[PathBuilder](https://www.safe.com/transformers/path-builder/)|||
+[PathSplitter](https://www.safe.com/transformers/path-splitter/)|||
+[PDFPageFormatter](https://www.safe.com/transformers/pdfpage-formatter/)|||
+[PDFStyler](https://www.safe.com/transformers/pdfstyler/)|||
+[PinterestConnector](https://www.safe.com/transformers/pinterest-connector/)|||
+[PlanarityFilter](https://www.safe.com/transformers/planarity-filter/)|||
+[Player](https://www.safe.com/transformers/player/)|||
+[PointCloudCoercer](https://www.safe.com/transformers/point-cloud-coercer/)|||
+[PointCloudCombiner](https://www.safe.com/transformers/point-cloud-combiner/)|||
+[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
+[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
+[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
+[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
+[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
+[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
+[PointCloudConsumer](https://www.safe.com/transformers/point-cloud-consumer/)|||
+[PointCloudCreator](https://www.safe.com/transformers/point-cloud-creator/)|||
+[PointCloudExpression](https://www.safe.com/transformers/point-cloud-expression/)|||
+[PointCloudExtractor](https://www.safe.com/transformers/point-cloud-extractor/)|||
+[PointCloudFilter](https://www.safe.com/transformers/point-cloud-filter/)|||
+[PointCloudMerger](https://www.safe.com/transformers/point-cloud-merger/)|||
+[PointCloudOnRaster](https://www.safe.com/transformers/point-cloud-on-raster/)|||
+[ComponentSetter](https://www.safe.com/transformers/component-setter/)|||
+[PointCloudPropertyExtractor](https://www.safe.com/transformers/point-cloud-property-extractor/)|||
+[PointCloudReplacer](https://www.safe.com/transformers/point-cloud-replacer/)|||
+[PointCloudSimplifier](https://www.safe.com/transformers/point-cloud-simplifier/)|||
+[PointCloudSorter](https://www.safe.com/transformers/point-cloud-sorter/)|||
+[PointCloudSplitter](https://www.safe.com/transformers/point-cloud-splitter/)|||
+[PointCloudStatistics](https://www.safe.com/transformers/point-cloud-statistics/)|||
+[PointCloudSurfaceBuilder](https://www.safe.com/transformers/point-cloud-surface-builder/)|||
+[PointCloudThinner](https://www.safe.com/transformers/point-cloud-thinner/)|||
+[PointCloudTransformation](https://www.safe.com/transformers/point-cloud-transformation/)|||
+[PointOnAreaOverlayer](https://www.safe.com/transformers/point-on-area-overlayer/)|||
+[PointOnLineOverlayer](https://www.safe.com/transformers/point-on-line-overlayer/)|||
+[PointOnPointOverlayer](https://www.safe.com/transformers/point-on-point-overlayer/)|||
+[PointOnRasterValueExtractor](https://www.safe.com/transformers/point-on-raster-value-extractor/)|||
+[PointPropertyExtractor](https://www.safe.com/transformers/point-property-extractor/)|||
+[PointPropertySetter](https://www.safe.com/transformers/point-property-setter/)|||
+[PowerPointStyler](https://www.safe.com/transformers/power-point-styler/)|||
+[PythonCaller](https://www.safe.com/transformers/python-caller/)|||
+[PythonCreator](https://www.safe.com/transformers/python-creator/)|||
+[RandomNumberGenerator](https://www.safe.com/transformers/random-number-generator/)|||
+[RasterAspectCalculator](https://www.safe.com/transformers/raster-aspect-calculator/)|||
+[RasterBandAdder](https://www.safe.com/transformers/raster-band-adder/)|||
+[RasterBandCombiner](https://www.safe.com/transformers/raster-band-combiner/)|||
+[RasterBandInterpretation](https://www.safe.com/transformers/raster-band-interpretation/)|||
+[RasterBandKeeper](https://www.safe.com/transformers/raster-band-keeper/)|||
+[RasterBandMinMaxExtractor](https://www.safe.com/transformers/raster-band-min-max-extractor/)|||
+[RasterBandNameSetter](https://www.safe.com/transformers/raster-band-name-setter/)|||
+[RasterBandNodataRemover](https://www.safe.com/transformers/raster-band-nodata-remover/)|||
+[RasterBandNodataSetter](https://www.safe.com/transformers/raster-band-nodata-setter/)|||
+[RasterBandOrderer](https://www.safe.com/transformers/raster-band-orderer/)|||
+[RasterBandPropertyExtractor](https://www.safe.com/transformers/raster-band-property-extractor/)|||
+[RasterBandRemover](https://www.safe.com/transformers/raster-band-remover/)|||
+[RasterBandSeparator](https://www.safe.com/transformers/raster-band-separator/)|||
+[RasterCellCoercer](https://www.safe.com/transformers/raster-cell-coercer/)|||
+[RasterCellOriginSetter](https://www.safe.com/transformers/raster-cell-origin-setter/)|||
+[RasterCellValueCalculator](https://www.safe.com/transformers/raster-cell-value-calculator/)|||
+[RasterCellValueReplacer](https://www.safe.com/transformers/raster-cell-value-replacer/)|||
+[RasterCellValueRounder](https://www.safe.com/transformers/raster-cell-value-rounder/)|||
+[RasterCheckpointer](https://www.safe.com/transformers/raster-checkpointer/)|||
+[RasterConsumer](https://www.safe.com/transformers/raster-consumer/)|||
+[RasterDEMGenerator](https://www.safe.com/transformers/raster-demgenerator/)|||
+[RasterExpressionEvaluator](https://www.safe.com/transformers/raster-expression-evaluator/)|||
+[RasterExtentsCoercer](https://www.safe.com/transformers/raster-extents-coercer/)|||
+[RasterExtractor](https://www.safe.com/transformers/raster-extractor/)|||
+[RasterGCPExtractor](https://www.safe.com/transformers/raster-gcpextractor/)|||
+[RasterGCPSetter](https://www.safe.com/transformers/raster-gcpsetter/)|||
+[RasterGeoreferencer](https://www.safe.com/transformers/raster-georeferencer/)|||
+[RasterHillshader](https://www.safe.com/transformers/raster-hillshader/)|||
+[RasterInterpretationCoercer](https://www.safe.com/transformers/raster-interpretation-coercer/)|||
+[RasterMosaicker](https://www.safe.com/transformers/raster-mosaicker/)|||
+[RasterNumericCreator](https://www.safe.com/transformers/raster-numeric-creator/)|||
+[RasterPaletteAdder](https://www.safe.com/transformers/raster-palette-adder/)|||
+[RasterPaletteExtractor](https://www.safe.com/transformers/raster-palette-extractor/)|||
+[RasterPaletteGenerator](https://www.safe.com/transformers/raster-palette-generator/)|||
+[RasterPaletteInterpretation](https://www.safe.com/transformers/raster-palette-interpretation/)|||
+[RasterPaletteNodataSetter](https://www.safe.com/transformers/raster-palette-nodata-setter/)|||
+[RasterPaletteRemover](https://www.safe.com/transformers/raster-palette-remover/)|||
+[RasterPaletteResolver](https://www.safe.com/transformers/raster-palette-resolver/)|||
+[RasterPropertyExtractor](https://www.safe.com/transformers/raster-property-extractor/)|||
+[RasterPyramider](https://www.safe.com/transformers/raster-pyramider/)|||
+[RasterReplacer](https://www.safe.com/transformers/raster-replacer/)|||
+[RasterResampler](https://www.safe.com/transformers/raster-resampler/)|||
+[RasterRGBCreator](https://www.safe.com/transformers/raster-rgbcreator/)|||
+[RasterRotationApplier](https://www.safe.com/transformers/raster-rotation-applier/)|||
+[RasterSelector](https://www.safe.com/transformers/raster-selector/)|||
+[RasterSingularCellValue](https://www.safe.com/transformers/raster-singular-cell-value/)|||
+[RasterSlopeCalculator](https://www.safe.com/transformers/raster-slope-calculator/)|||
+[RasterSubsetter](https://www.safe.com/transformers/raster-subsetter/)|||
+[RasterTiler](https://www.safe.com/transformers/raster-tiler/)|||
+[RasterToPolygonCoercer](https://www.safe.com/transformers/raster-to-polygon-coercer/)|||
+[RCaller](https://www.safe.com/transformers/rcaller/)|||
+[Recorder](https://www.safe.com/transformers/recorder/)|||
+[ReframeReprojector](https://www.safe.com/transformers/reframe-reprojector/)|||
+[ReprojectAngleCalculator](https://www.safe.com/transformers/reproject-angle-calculator/)|||
+[ReprojectLengthCalculator](https://www.safe.com/transformers/reproject-length-calculator/)|||
+[Reprojector](https://www.safe.com/transformers/reprojector/)|||
+[Rotator](https://www.safe.com/transformers/rotator/)|||
+[RubberSheeter](https://www.safe.com/transformers/rubber-sheeter/)|||
+[S3Connector](https://www.safe.com/transformers/s3connector/)|||
+[S3Deleter](https://www.safe.com/transformers/s3deleter/)|||
+[S3Downloader](https://www.safe.com/transformers/s3downloader/)|||
+[S3ObjectLister](https://www.safe.com/transformers/s3object-lister/)|||
+[S3Uploader](https://www.safe.com/transformers/s3uploader/)|||
+[SalesforceConnector](https://www.safe.com/transformers/salesforce-connector/)|||
+[Sampler](https://www.safe.com/transformers/sampler/)|||
+[Scaler](https://www.safe.com/transformers/scaler/)|||
+[SchemaMapper](https://www.safe.com/transformers/schema-mapper/)|||
+[SecondOrderConformer](https://www.safe.com/transformers/second-order-conformer/)|||
+[SectorGenerator](https://www.safe.com/transformers/sector-generator/)|||
+[SharedItemAdder](https://www.safe.com/transformers/shared-item-adder/)|||
+[SharedItemIDExtractor](https://www.safe.com/transformers/shared-item-idextractor/)|||
+[SharedItemIDSetter](https://www.safe.com/transformers/shared-item-idsetter/)|||
+[SharedItemRetriever](https://www.safe.com/transformers/shared-item-retriever/)|||
+[SherbendGeneralizer](https://www.safe.com/transformers/sherbend-generalizer/)|||
+[ShortestPathFinder](https://www.safe.com/transformers/shortest-path-finder/)|||
+[SlackConnector](https://www.safe.com/transformers/slack-connector/)|||
+[Snapper](https://www.safe.com/transformers/snapper/)|||
+[Snipper](https://www.safe.com/transformers/snipper/)|||
+[SNSSender](https://www.safe.com/transformers/snssender/)|||
+[SolidBuilder](https://www.safe.com/transformers/solid-builder/)|||
+[Sorter](https://www.safe.com/transformers/sorter/)|||
+[SpatialFilter](https://www.safe.com/transformers/spatial-filter/)|||
+[SpatialRelator](https://www.safe.com/transformers/spatial-relator/)|||
+[SpikeRemover](https://www.safe.com/transformers/spike-remover/)|||
+[SQLCreator](https://www.safe.com/transformers/sqlcreator/)|||
+[SQLExecutor](https://www.safe.com/transformers/sqlexecutor/)|||
+[SQSDeleter](https://www.safe.com/transformers/sqsdeleter/)|||
+[SQSMessageCounter](https://www.safe.com/transformers/sqsmessage-counter/)|||
+[SQSReceiver](https://www.safe.com/transformers/sqsreceiver/)|||
+[SQSSender](https://www.safe.com/transformers/sqssender/)|||
+[StatisticsCalculator](https://www.safe.com/transformers/statistics-calculator/)|||
+[StreamOrderCalculator](https://www.safe.com/transformers/stream-order-calculator/)|||
+[StreamPriorityCalculator](https://www.safe.com/transformers/stream-priority-calculator/)|||
+[StringCaseChanger](https://www.safe.com/transformers/string-case-changer/)|||
+[StringConcatenator](https://www.safe.com/transformers/string-concatenator/)|||
+[StringFormatter](https://www.safe.com/transformers/string-formatter/)|||
+[StringLengthCalculator](https://www.safe.com/transformers/string-length-calculator/)|||
+[StringPadder](https://www.safe.com/transformers/string-padder/)|||
+[StringPairReplacer](https://www.safe.com/transformers/string-pair-replacer/)|||
+[StringReplacer](https://www.safe.com/transformers/string-replacer/)|||
+[StringSearcher](https://www.safe.com/transformers/string-searcher/)|||
+[SubstringExtractor](https://www.safe.com/transformers/substring-extractor/)|||
+[SummaryReporter](https://www.safe.com/transformers/summary-reporter/)|||
+[SurfaceBuilder](https://www.safe.com/transformers/surface-builder/)|||
+[SurfaceDissolver](https://www.safe.com/transformers/surface-dissolver/)|||
+[SurfaceDraper](https://www.safe.com/transformers/surface-draper/)|||
+[SurfaceFootprintReplacer](https://www.safe.com/transformers/surface-footprint-replacer/)|||
+[SurfaceModeller](https://www.safe.com/transformers/surface-modeller/)|||
+[SurfaceOnSurfaceOverlayer](https://www.safe.com/transformers/surface-on-surface-overlayer/)|||
+[SurfaceSplitter](https://www.safe.com/transformers/surface-splitter/)|||
+[SystemCaller](https://www.safe.com/transformers/system-caller/)|||
+[TclCaller](https://www.safe.com/transformers/tcl-caller/)|||
+[TCPIPReceiver](https://www.safe.com/transformers/tcpipreceiver/)|||
+[TCPIPSender](https://www.safe.com/transformers/tcpipsender/)|||
+[TempPathnameCreator](https://www.safe.com/transformers/temp-pathname-creator/)|||
+[Terminator](https://www.safe.com/transformers/terminator/)|||
+[Tester](https://www.safe.com/transformers/tester/)|||
+[TestFilter](https://www.safe.com/transformers/test-filter/)|||
+[TextAdder](https://www.safe.com/transformers/text-adder/)|||
+[TextDecoder](https://www.safe.com/transformers/text-decoder/)|||
+[TextEncoder](https://www.safe.com/transformers/text-encoder/)|||
+[TextLocationExtractor](https://www.safe.com/transformers/text-location-extractor/)|||
+[TextPropertyExtractor](https://www.safe.com/transformers/text-property-extractor/)|||
+[TextPropertySetter](https://www.safe.com/transformers/text-property-setter/)|||
+[TextStroker](https://www.safe.com/transformers/text-stroker/)|||
+[TextureCoordinateSetter](https://www.safe.com/transformers/texture-coordinate-setter/)|||
+[Tiler](https://www.safe.com/transformers/tiler/)|||
+[TINGenerator](https://www.safe.com/transformers/tingenerator/)|||
+[TopologyBuilder](https://www.safe.com/transformers/topology-builder/)|||
+[TraitMerger](https://www.safe.com/transformers/trait-merger/)|||
+[TransporterReceiver](https://www.safe.com/transformers/transporter-receiver/)|||
+[TransporterSender](https://www.safe.com/transformers/transporter-sender/)|||
+[Triangulator](https://www.safe.com/transformers/triangulator/)|||
+[Tweeter](https://www.safe.com/transformers/tweeter/)|||
+[TweetSearcher](https://www.safe.com/transformers/tweet-searcher/)|||
+[TweetStreamer](https://www.safe.com/transformers/tweet-streamer/)|||
+[TwitterStatusFetcher](https://www.safe.com/transformers/twitter-status-fetcher/)|||
+[UUIDGenerator](https://www.safe.com/transformers/uuidgenerator/)|||
+[VariableRetriever](https://www.safe.com/transformers/variable-retriever/)|||
+[VariableSetter](https://www.safe.com/transformers/variable-setter/)|||
+[VectorOnRasterOverlayer](https://www.safe.com/transformers/vector-on-raster-overlayer/)|||
+[VertexCounter](https://www.safe.com/transformers/vertex-counter/)|||
+[VertexCreator](https://www.safe.com/transformers/vertex-creator/)|||
+[VertexRemover](https://www.safe.com/transformers/vertex-remover/)|||
+[VolumeCalculator](https://www.safe.com/transformers/volume-calculator/)|||
+[VoronoiCellGenerator](https://www.safe.com/transformers/voronoi-cell-generator/)|||
+[VoronoiDiagrammer](https://www.safe.com/transformers/voronoi-diagrammer/)|||
+[WebMapTiler](https://www.safe.com/transformers/web-map-tiler/)|||
+[WebSocketReceiver](https://www.safe.com/transformers/web-socket-receiver/)|||
+[WebSocketSender](https://www.safe.com/transformers/web-socket-sender/)|||
+[WhiteStarLeaseBuilder](https://www.safe.com/transformers/white-star-lease-builder/)|||
+[WorkspaceRunner](https://www.safe.com/transformers/workspace-runner/)|||
+[XMLAppender](https://www.safe.com/transformers/xmlappender/)|||
+[XMLFeatureMapper](https://www.safe.com/transformers/xmlfeature-mapper/)|||
+[XMLFlattener](https://www.safe.com/transformers/xmlflattener/)|||
+[XMLFormatter](https://www.safe.com/transformers/xmlformatter/)|||
+[XMLFragmenter](https://www.safe.com/transformers/xmlfragmenter/)|||
+[XMLNamespaceDeclarer](https://www.safe.com/transformers/xmlnamespace-declarer/)|||
+[XMLSampleGenerator](https://www.safe.com/transformers/xmlsample-generator/)|||
+[XMLTemplater](https://www.safe.com/transformers/xmltemplater/)|||
+[XMLUpdater](https://www.safe.com/transformers/xmlupdater/)|||
+[XMLValidator](https://www.safe.com/transformers/xmlvalidator/)|||
+[XMLXQueryExploder](https://www.safe.com/transformers/xmlxquery-exploder/)|||
+[XMLXQueryExtractor](https://www.safe.com/transformers/xmlxquery-extractor/)|||
+[XMLXQueryUpdater](https://www.safe.com/transformers/xmlxquery-updater/)|||

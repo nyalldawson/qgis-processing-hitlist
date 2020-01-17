@@ -76,7 +76,7 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [CenterLineReplacer](https://www.safe.com/transformers/center-line-replacer/)|||needs algorithm, non trivial!
 [CenterPointExtractor](https://www.safe.com/transformers/center-point-extractor/)|centroid, point on surface, pole of inaccessibility|centroid, point_on_surface, pole_of_inaccessibility|
 [CenterPointReplacer](https://www.safe.com/transformers/center-point-replacer/)|||
-[ChangeDetector](https://www.safe.com/transformers/change-detector/)|Missing|N/A|
+[ChangeDetector](https://www.safe.com/transformers/change-detector/)|Detect dataset changes|N/A|
 [CharacterCodeExtractor](https://www.safe.com/transformers/character-code-extractor/)|N/A|Missing|
 [CharacterCodeReplacer](https://www.safe.com/transformers/character-code-replacer/)|N/A|char|
 [ChartGenerator](https://www.safe.com/transformers/chart-generator/)|||
@@ -199,7 +199,7 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [ImageRasterizer](https://www.safe.com/transformers/image-rasterizer/)|Rasterize (GDAL), Convert map to raster, XYZ Tiles|N/A|
 [InlineQuerier](https://www.safe.com/transformers/inline-querier/)|||
 [Inspector](https://www.safe.com/transformers/inspector/)|||
-[Intersector](https://www.safe.com/transformers/intersector/)|||
+[Intersector](https://www.safe.com/transformers/intersector/)|Intersection|intersection|
 [JavaScriptCaller](https://www.safe.com/transformers/java-script-caller/)|||
 [JMSReceiver](https://www.safe.com/transformers/jmsreceiver/)|||
 [JMSSender](https://www.safe.com/transformers/jmssender/)|||
@@ -218,19 +218,19 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [KMLTimeSetter](https://www.safe.com/transformers/kmltime-setter/)|||
 [KMLTourBuilder](https://www.safe.com/transformers/kmltour-builder/)|||
 [KMLViewSetter](https://www.safe.com/transformers/kmlview-setter/)|||
-[Labeller](https://www.safe.com/transformers/labeller/)|||
-[LabelPointReplacer](https://www.safe.com/transformers/label-point-replacer/)|||
+[Labeller](https://www.safe.com/transformers/labeller/)|N/A|N/A|
+[LabelPointReplacer](https://www.safe.com/transformers/label-point-replacer/)|N/A|N/A|
 [LatLongToMGRSConverter](https://www.safe.com/transformers/lat-long-to-mgrsconverter/)|||
 [LeftRightSpatialCalculator](https://www.safe.com/transformers/left-right-spatial-calculator/)|||
-[LengthCalculator](https://www.safe.com/transformers/length-calculator/)|||
-[LengthToPointCalculator](https://www.safe.com/transformers/length-to-point-calculator/)|||
-[LicenseChecker](https://www.safe.com/transformers/license-checker/)|||
-[LineBuilder](https://www.safe.com/transformers/line-builder/)|||
-[LineCloser](https://www.safe.com/transformers/line-closer/)|||
-[LineCombiner](https://www.safe.com/transformers/line-combiner/)|||
-[LineExtender](https://www.safe.com/transformers/line-extender/)|||
-[LineOnAreaOverlayer](https://www.safe.com/transformers/line-on-area-overlayer/)|||
-[LineOnLineOverlayer](https://www.safe.com/transformers/line-on-line-overlayer/)|||
+[LengthCalculator](https://www.safe.com/transformers/length-calculator/)|Add geometry attributes|$length|
+[LengthToPointCalculator](https://www.safe.com/transformers/length-to-point-calculator/)|Missing|Missing|
+[LicenseChecker](https://www.safe.com/transformers/license-checker/)|N/A|N/A|Definitely not required!
+[LineBuilder](https://www.safe.com/transformers/line-builder/)|Points to paths|N/A|
+[LineCloser](https://www.safe.com/transformers/line-closer/)|Missing|Missing|
+[LineCombiner](https://www.safe.com/transformers/line-combiner/)|Merge lines|line_merge|
+[LineExtender](https://www.safe.com/transformers/line-extender/)|Extend lines|extend|
+[LineOnAreaOverlayer](https://www.safe.com/transformers/line-on-area-overlayer/)|Union||
+[LineOnLineOverlayer](https://www.safe.com/transformers/line-on-line-overlayer/)|Union||
 [ListBasedFeatureMerger](https://www.safe.com/transformers/list-based-feature-merger/)|||
 [ListBuilder](https://www.safe.com/transformers/list-builder/)|||
 [ListConcatenator](https://www.safe.com/transformers/list-concatenator/)|||

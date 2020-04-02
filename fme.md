@@ -184,21 +184,21 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [GridInquestReprojector](https://www.safe.com/transformers/grid-in-quest-ii-reprojector/)|N/A|N/A|QGIS always uses the PROJ library for reprojection
 [GtransAttributeReprojector](https://www.safe.com/transformers/gtrans-attribute-reprojector/)|N/A|N/A|QGIS always uses the PROJ library for reprojection
 [GtransReprojector](https://www.safe.com/transformers/gtrans-reprojector/)|N/A|N/A|QGIS always uses the PROJ library for reprojection
-[HDFSConnector](https://www.safe.com/transformers/hdfsconnector/)|||
+[HDFSConnector](https://www.safe.com/transformers/hdfsconnector/)|N/A|N/A|Handled by the GDAL library
 [HoleCounter](https://www.safe.com/transformers/hole-counter/)|N/A|num_interior_rings|
-[HTMLExtractor](https://www.safe.com/transformers/htmlextractor/)|||
-[HTMLLayouter](https://www.safe.com/transformers/htmllayouter/)|||
-[HTMLReportGenerator](https://www.safe.com/transformers/htmlreport-generator/)|||
-[HTMLToXHTMLConverter](https://www.safe.com/transformers/htmlto-xhtmlconverter/)|||
+[HTMLExtractor](https://www.safe.com/transformers/html-extractor/)|Missing|N/A|3rd party plugin candidate
+[HTMLLayouter](https://www.safe.com/transformers/html-layouter/)|Missing|N/A|
+[HTMLReportGenerator](https://www.safe.com/transformers/html-report-generator/)|Missing|N/A|
+[HTMLToXHTMLConverter](https://www.safe.com/transformers/html-to-xhtml-converter/)|Missing|N/A|
 [HTTPCaller](https://www.safe.com/transformers/httpcaller/)|Missing|N/A|
 [HullAccumulator](https://www.safe.com/transformers/hull-accumulator/)|Convex hull, Concave hull|convex_hull|
-[HullReplacer](https://www.safe.com/transformers/hull-replacer/)|||
-[IFCPropertySetDefinition](https://www.safe.com/transformers/ifcproperty-set-definition/)|||
-[IFCQuantitySetDefinition](https://www.safe.com/transformers/ifcquantity-set-definition/)|||
-[ImageFetcher](https://www.safe.com/transformers/image-fetcher/)|||
+[HullReplacer](https://www.safe.com/transformers/hull-replacer/)|Convex hull, Concave hull|convex_hull|
+[IFCPropertySetDefinition](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/ifcpropertysetdefinitioncreator.htm)|Missing|N/A|
+[IFCQuantitySetDefinition](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/ifcquantitysetdefinitioncreator.htm)|Missing|N/A|
+[ImageFetcher](https://www.safe.com/transformers/image-fetcher/)|Missing|N/A|
 [ImageRasterizer](https://www.safe.com/transformers/image-rasterizer/)|Rasterize (GDAL), Convert map to raster, XYZ Tiles|N/A|
-[InlineQuerier](https://www.safe.com/transformers/inline-querier/)|||
-[Inspector](https://www.safe.com/transformers/inspector/)|||
+[InlineQuerier](https://www.safe.com/transformers/inline-querier/)|Spatialite execute SQL, Execute SQL|N/A|
+[Inspector](https://www.safe.com/transformers/inspector/)|N/A|N/A|
 [Intersector](https://www.safe.com/transformers/intersector/)|Intersection|intersection|
 [JavaScriptCaller](https://www.safe.com/transformers/java-script-caller/)|||
 [JMSReceiver](https://www.safe.com/transformers/jmsreceiver/)|||

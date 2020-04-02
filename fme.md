@@ -201,27 +201,27 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [Inspector](https://www.safe.com/transformers/inspector/)|N/A|N/A|
 [Intersector](https://www.safe.com/transformers/intersector/)|Intersection|intersection|
 [JavaScriptCaller](https://docs.safe.com/fme/2018.0/html/FME_Desktop_Documentation/FME_Transformers/Transformers/javascriptcaller.htm)|Via plugin|N/A|Possible via the 3rd party "Processing JS" Plugin
-[JMSReceiver](hhttps://www.safe.com/transformers/jms-receiver/)|Missing|N/A|3rd party plugin candidate
+[JMSReceiver](https://www.safe.com/transformers/jms-receiver/)|Missing|N/A|3rd party plugin candidate
 [JMSSender](https://www.safe.com/transformers/jms-sender/)|Missing|N/A|3rd party plugin candidate
-[JSONExtractor](https://www.safe.com/transformers/json-extractor/)|||
-[JSONFlattener](https://www.safe.com/transformers/json-flattener/)|||
-[JSONFormatter](https://www.safe.com/transformers/json-formatter/)|||
-[JSONFragmenter](https://www.safe.com/transformers/json-fragmenter/)|||
-[JSONTemplater](https://www.safe.com/transformers/json-templater/)|||
-[JSONUpdater](https://www.safe.com/transformers/json-updater/)|||
-[JSONValidator](https://www.safe.com/transformers/json-validator/)|||
-[KinesisReceiver](https://www.safe.com/transformers/kinesis-receiver/)|||
-[KinesisSender](https://www.safe.com/transformers/kinesis-sender/)|||
-[KMLPropertySetter](https://www.safe.com/transformers/kmlproperty-setter/)|||
-[KMLRegionSetter](https://www.safe.com/transformers/kmlregion-setter/)|||
-[KMLStyler](https://www.safe.com/transformers/kmlstyler/)|||
-[KMLTimeSetter](https://www.safe.com/transformers/kmltime-setter/)|||
-[KMLTourBuilder](https://www.safe.com/transformers/kmltour-builder/)|||
-[KMLViewSetter](https://www.safe.com/transformers/kmlview-setter/)|||
+[JSONExtractor](https://www.safe.com/transformers/json-extractor/)|Explode hstore field|map and array functions|
+[JSONFlattener](https://www.safe.com/transformers/json-flattener/)|Explode hstore field|map and array functions|
+[JSONFormatter](https://www.safe.com/transformers/json-formatter/)|N/A|Missing|
+[JSONFragmenter](https://www.safe.com/transformers/json-fragmenter/)|N/A|map and array functions|
+[JSONTemplater](https://www.safe.com/transformers/json-templater/)|N/A|map and array functions|
+[JSONUpdater](https://www.safe.com/transformers/json-updater/)|N/A|map and array functions|
+[JSONValidator](https://www.safe.com/transformers/json-validator/)|Missing|N/A|
+[KinesisReceiver](https://www.safe.com/transformers/kinesis-receiver/)|Missing|N/A|3rd party plugin candidate
+[KinesisSender](https://www.safe.com/transformers/kinesis-sender/)|Missing|N/A|3rd party plugin candidate
+[KMLPropertySetter](https://www.safe.com/transformers/kml-property-setter/)|Missing|N/A|
+[KMLRegionSetter](https://www.safe.com/transformers/kml-region-setter/)|Missing|N/A|
+[KMLStyler](https://www.safe.com/transformers/kml-styler/)|Missing|N/A|
+[KMLTimeSetter](https://www.safe.com/transformers/kml-time-setter/)|Missing|N/A|
+[KMLTourBuilder](https://www.safe.com/transformers/kml-tour-builder/)|Missing|N/A|3rd party plugin candidate
+[KMLViewSetter](https://www.safe.com/transformers/kml-view-setter/)|Missing|N/A|3rd party plugin candidate
 [Labeller](https://www.safe.com/transformers/labeller/)|N/A|N/A|
 [LabelPointReplacer](https://www.safe.com/transformers/label-point-replacer/)|N/A|N/A|
-[LatLongToMGRSConverter](https://www.safe.com/transformers/lat-long-to-mgrsconverter/)|||
-[LeftRightSpatialCalculator](https://www.safe.com/transformers/left-right-spatial-calculator/)|||
+[LatLongToMGRSConverter](https://www.safe.com/transformers/lat-long-to-mgrs-converter/)|Missing|Missing|
+[LeftRightSpatialCalculator](https://www.safe.com/transformers/left-right-spatial-calculator/)|Missing|Missing|Raw API already exists, but not exposed to QGIS Processing or Expressions
 [LengthCalculator](https://www.safe.com/transformers/length-calculator/)|Add geometry attributes|$length|
 [LengthToPointCalculator](https://www.safe.com/transformers/length-to-point-calculator/)|Missing|Missing|
 [LicenseChecker](https://www.safe.com/transformers/license-checker/)|N/A|N/A|Definitely not required!

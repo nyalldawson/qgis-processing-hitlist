@@ -200,16 +200,16 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [InlineQuerier](https://www.safe.com/transformers/inline-querier/)|Spatialite execute SQL, Execute SQL|N/A|
 [Inspector](https://www.safe.com/transformers/inspector/)|N/A|N/A|
 [Intersector](https://www.safe.com/transformers/intersector/)|Intersection|intersection|
-[JavaScriptCaller](https://www.safe.com/transformers/java-script-caller/)|||
-[JMSReceiver](https://www.safe.com/transformers/jmsreceiver/)|||
-[JMSSender](https://www.safe.com/transformers/jmssender/)|||
-[JSONExtractor](https://www.safe.com/transformers/jsonextractor/)|||
-[JSONFlattener](https://www.safe.com/transformers/jsonflattener/)|||
-[JSONFormatter](https://www.safe.com/transformers/jsonformatter/)|||
-[JSONFragmenter](https://www.safe.com/transformers/jsonfragmenter/)|||
-[JSONTemplater](https://www.safe.com/transformers/jsontemplater/)|||
-[JSONUpdater](https://www.safe.com/transformers/jsonupdater/)|||
-[JSONValidator](https://www.safe.com/transformers/jsonvalidator/)|||
+[JavaScriptCaller](https://docs.safe.com/fme/2018.0/html/FME_Desktop_Documentation/FME_Transformers/Transformers/javascriptcaller.htm)|Via plugin|N/A|Possible via the 3rd party "Processing JS" Plugin
+[JMSReceiver](hhttps://www.safe.com/transformers/jms-receiver/)|Missing|N/A|3rd party plugin candidate
+[JMSSender](https://www.safe.com/transformers/jms-sender/)|Missing|N/A|3rd party plugin candidate
+[JSONExtractor](https://www.safe.com/transformers/json-extractor/)|||
+[JSONFlattener](https://www.safe.com/transformers/json-flattener/)|||
+[JSONFormatter](https://www.safe.com/transformers/json-formatter/)|||
+[JSONFragmenter](https://www.safe.com/transformers/json-fragmenter/)|||
+[JSONTemplater](https://www.safe.com/transformers/json-templater/)|||
+[JSONUpdater](https://www.safe.com/transformers/json-updater/)|||
+[JSONValidator](https://www.safe.com/transformers/json-validator/)|||
 [KinesisReceiver](https://www.safe.com/transformers/kinesis-receiver/)|||
 [KinesisSender](https://www.safe.com/transformers/kinesis-sender/)|||
 [KMLPropertySetter](https://www.safe.com/transformers/kmlproperty-setter/)|||

@@ -110,52 +110,52 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [DatabaseJoiner](https://www.safe.com/transformers/database-joiner/)|Join attributes by \*|N/A|
 [DatabaseUpdater](https://www.safe.com/transformers/database-updater/)|Missing|N/A|
 [DateTimeCalculator](https://www.safe.com/transformers/date-time-calculator/)|N/A|Misc functions|
-[DateTimeConverter](https://www.safe.com/transformers/date-time-converter/)|||
+[DateTimeConverter](https://www.safe.com/transformers/date-time-converter/)|Missing|Missing|
 [DateTimeStamper](https://www.safe.com/transformers/date-time-stamper/)|N/A|epoch(), now()|
 [Deaggregator](https://www.safe.com/transformers/deaggregator/)|Multipart to singleparts|Missing|
-[Decelerator](https://www.safe.com/transformers/decelerator/)|||
+[Decelerator](https://www.safe.com/transformers/decelerator/)|N/A|N/A|
 [DecimalDegreesCalculator](https://www.safe.com/transformers/decimal-degrees-calculator/)|N/A|Needs from_dms function|
-[DEMDistanceCalculator](https://www.safe.com/transformers/demdistance-calculator/)|||
-[DEMGenerator](https://www.safe.com/transformers/demgenerator/)|||
+[DEMDistanceCalculator](https://www.safe.com/transformers/demdistance-calculator/)|Missing|N/A|
+[DEMGenerator](https://www.safe.com/transformers/demgenerator/)|TIN interpolation|N/A|
 [Densifier](https://www.safe.com/transformers/densifier/)|Densify by count/Densify by distance|Missing|
-[DensityCalculator](https://www.safe.com/transformers/density-calculator/)|||
-[DGNStyler](https://www.safe.com/transformers/dgnstyler/)|||
-[DimensionExtractor](https://www.safe.com/transformers/dimension-extractor/)|||
-[DirectTweeter](https://www.safe.com/transformers/direct-tweeter/)|||
-[Displacer](https://www.safe.com/transformers/displacer/)|||
+[DensityCalculator](https://www.safe.com/transformers/density-calculator/)|Missing|N/A|
+[DGNStyler](https://www.safe.com/transformers/dgn-styler/)|Missing|N/A|3rd party plugin candidate
+[DimensionExtractor](https://www.safe.com/transformers/dimension-extractor/)|N/A|Missing|
+[DirectTweeter](https://www.safe.com/transformers/direct-tweeter/)|Missing|N/A|3rd party plugin candidate
+[Displacer](https://www.safe.com/transformers/displacer/)|Points diplacement is a partial match|N/A|
 [Dissolver](https://www.safe.com/transformers/dissolver/)|Dissolve|Union|
 [DMSCalculator](https://www.safe.com/transformers/dmscalculator/)|N/A|to_dm, to_dms|
-[DonutBridgeBuilder](https://www.safe.com/transformers/donut-bridge-builder/)|||
-[DonutBuilder](https://www.safe.com/transformers/donut-builder/)|||
+[DonutBridgeBuilder](https://www.safe.com/transformers/donut-bridge-builder/)|Missing|N/A|
+[DonutBuilder](https://www.safe.com/transformers/donut-builder/)|Difference|difference|
 [DonutHoleExtractor](https://www.safe.com/transformers/donut-hole-extractor/)|N/A|exterior_ring, interior_ring_n|
-[DropboxConnector](https://www.safe.com/transformers/dropbox-connector/)|||
+[DropboxConnector](https://www.safe.com/transformers/dropbox-connector/)|Missing|N/A|3rd party plugin candidate
 [DuplicateFilter](https://www.safe.com/transformers/duplicate-filter/)|Delete duplicate geometries, delete duplicates by attribute|N/A|
-[DWGStyler](https://www.safe.com/transformers/dwgstyler/)|||
+[DWGStyler](https://www.safe.com/transformers/dwg-styler/)|Missing|N/A|DXF export is not exposed to Processing
 [ElevationExtractor](https://www.safe.com/transformers/elevation-extractor/)|Extract z values|z|
-[EllipsePropertyExtractor](https://www.safe.com/transformers/ellipse-property-extractor/)|||
-[EllipsePropertySetter](https://www.safe.com/transformers/ellipse-property-setter/)|||
-[Emailer](https://www.safe.com/transformers/emailer/)|||
+[EllipsePropertyExtractor](https://www.safe.com/transformers/ellipse-property-extractor/)|N/A|Missing|
+[EllipsePropertySetter](https://www.safe.com/transformers/ellipse-property-setter/)|N/A|Missing|
+[Emailer](https://www.safe.com/transformers/emailer/)|Missing|N/A|
 [EnvironmentVariableFetcher](https://www.safe.com/transformers/environment-variable-fetcher/)|N/A|env|
-[EsriReprojector](https://www.safe.com/transformers/esri-reprojector/)|||
-[ExcelStyler](https://www.safe.com/transformers/excel-styler/)|||
+[EsriReprojector](https://www.safe.com/transformers/esri-reprojector/)|N/A|N/A|QGIS always uses the PROJ library for transforms
+[ExcelStyler](https://www.safe.com/transformers/excel-styler/)|Missing|N/A|
 [ExpressionEvaluator](https://www.safe.com/transformers/expression-evaluator/)|Many|Many|
-[Extruder](https://www.safe.com/transformers/extruder/)|||
-[FaceReplacer](https://www.safe.com/transformers/face-replacer/)|||
-[FeatureColorSetter](https://www.safe.com/transformers/feature-color-setter/)|||
-[FeatureHolder](https://www.safe.com/transformers/feature-holder/)|||
+[Extruder](https://www.safe.com/transformers/extruder/)|v.extrude|N/A|
+[FaceReplacer](https://www.safe.com/transformers/face-replacer/)|Missing|N/A|
+[FeatureColorSetter](https://www.safe.com/transformers/feature-color-setter/)|N/A|N/A|Possibly value in algorithms which create layer styles in place
+[FeatureHolder](https://www.safe.com/transformers/feature-holder/)|N/A|N/A|
 [FeatureJoiner](https://www.safe.com/transformers/feature-joiner/)|Join attributes by field value, Join attributes by location|N/A|
-[FeatureMerger](https://www.safe.com/transformers/feature-merger/)|||
+[FeatureMerger](https://www.safe.com/transformers/feature-merger/)|Join attributes by field value|N/A|
 [FeatureReader](https://www.safe.com/transformers/feature-reader/)|N/A|N/A|Vector file handling
-[FeatureTypeExtractor](https://www.safe.com/transformers/feature-type-extractor/)|||
-[FeatureTypeFilter](https://www.safe.com/transformers/feature-type-filter/)|||
+[FeatureTypeExtractor](https://www.safe.com/transformers/feature-type-extractor/)|N/A|Missing|
+[FeatureTypeFilter](https://www.safe.com/transformers/feature-type-filter/)|Filter by geometry type|N/A|
 [FeatureWriter](https://www.safe.com/transformers/feature-writer/)|N/A|N/A|Vector file writer
 [FilenamePartExtractor](https://www.safe.com/transformers/filename-part-extractor/)|N/A|base_file_name, file_name, file_path|
-[FMEFunctionCaller](https://www.safe.com/transformers/fmefunction-caller/)|||
-[FMEServerJobSubmitter](https://www.safe.com/transformers/fmeserver-job-submitter/)|||
-[FMEServerJobWaiter](https://www.safe.com/transformers/fmeserver-job-waiter/)|||
-[FMEServerLogFileRetriever](https://www.safe.com/transformers/fmeserver-log-file-retriever/)|||
-[FMEServerNotifier](https://www.safe.com/transformers/fmeserver-notifier/)|||
-[FMEServerResource](https://www.safe.com/transformers/fmeserver-resource/)|||
+[FMEFunctionCaller](https://www.safe.com/transformers/fmefunction-caller/)|N/A|N/A|
+[FMEServerJobSubmitter](https://www.safe.com/transformers/fmeserver-job-submitter/)|N/A|N/A|
+[FMEServerJobWaiter](https://www.safe.com/transformers/fmeserver-job-waiter/)|N/A|N/A|
+[FMEServerLogFileRetriever](https://www.safe.com/transformers/fmeserver-log-file-retriever/)|N/A|N/A|
+[FMEServerNotifier](https://www.safe.com/transformers/fmeserver-notifier/)|N/A|N/A|
+[FMEServerResource](https://www.safe.com/transformers/fmeserver-resource/)|N/A|N/A|
 [FTPCaller](https://www.safe.com/transformers/ftpcaller/)|Missing|N/A|
 [GCMMessenger](https://www.safe.com/transformers/gcmmessenger/)|||
 [Generalizer](https://www.safe.com/transformers/generalizer/)|Simplify, smooth|simplify, smooth|

@@ -26,31 +26,31 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [AppearanceRemover](https://www.safe.com/transformers/appearance-remover/)|N/A|N/A|Doesn't apply in QGIS
 [AppearanceSetter](https://www.safe.com/transformers/appearance-setter/)|N/A|N/A|Doesn't apply in QGIS
 [AppearanceStyler](https://www.safe.com/transformers/appearance-styler/)|N/A|N/A|Doesn't apply in QGIS
-[ArcEstimator](https://www.safe.com/transformers/arc-estimator/)|Mssing|Missing|Port from PostGIS? Partial work at https://github.com/nyalldawson/QGIS/tree/convert_to_curves
+[ArcEstimator](https://www.safe.com/transformers/arc-estimator/)|Missing|Missing|Port from PostGIS? Partial work at https://github.com/nyalldawson/QGIS/tree/convert_to_curves
 [ArcPropertyExtractor](https://www.safe.com/transformers/arc-property-extractor/)|N/A|Missing|
-[ArcPropertySetter](https://www.safe.com/transformers/arc-property-setter/)|||
-[ArcSDEGridSnapper](https://www.safe.com/transformers/arc-sdegrid-snapper/)|N/A|N/A|Doesn't apply in QGIS
-[ArcSDEQuerier](https://www.safe.com/transformers/arc-sdequerier/)|N/A|N/A|Doesn't apply in QGIS
+[ArcPropertySetter](https://www.safe.com/transformers/arc-property-setter/)|N/A|Missing|
+[ArcSDEGridSnapper](https://www.safe.com/transformers/arc-sdegrid-snapper/)|N/A|N/A|Doesn't apply in QGIS - no support for SDE
+[ArcSDEQuerier](https://www.safe.com/transformers/arc-sdequerier/)|N/A|N/A|Doesn't apply in QGIS - no support for SDE
 [ArcStroker](https://www.safe.com/transformers/arc-stroker/)|Segmentize by ...|Missing|
-[AreaAmalgamator](https://www.safe.com/transformers/area-amalgamator/)|||
+[AreaAmalgamator](https://www.safe.com/transformers/area-amalgamator/)|Missing|Missing|
 [AreaBuilder](https://www.safe.com/transformers/area-builder/)|Polygonize|Missing|
-[AreaCalculator](https://www.safe.com/transformers/area-calculator/)|N/A|$area|
-[AreaGapAndOverlap](https://www.safe.com/transformers/area-gap-and-overlap/)|||
-[AreaOnAreaOverlayer](https://www.safe.com/transformers/area-on-area-overlayer/)|||
-[AttributeCompressor](https://www.safe.com/transformers/attribute-compressor/)|||
+[AreaCalculator](https://www.safe.com/transformers/area-calculator/)|Add geometry attributes|$area|
+[AreaGapAndOverlapCleaner](https://www.safe.com/transformers/area-gap-and-overlap-cleaner/)|Snap geometries to layer|N/A|
+[AreaOnAreaOverlayer](https://www.safe.com/transformers/area-on-area-overlayer/)|Union|N/A|
+[AttributeCompressor](https://www.safe.com/transformers/attribute-compressor/)|Missing|Missing|
 [AttributeCopier](https://www.safe.com/transformers/attribute-copier/)|Field calculator, Refactor fields|N/A|
 [AttributeCreator](https://www.safe.com/transformers/attribute-creator/)|Add field to attributes table|N/A|
-[AttributeDecompressor](https://www.safe.com/transformers/attribute-decompressor/)|||
+[AttributeDecompressor](https://www.safe.com/transformers/attribute-decompressor/)|Missing|Missing|
 [AttributeDereferencer](https://www.safe.com/transformers/attribute-dereferencer/)|N/A|attribute()|
 [AttributeEncoder](https://www.safe.com/transformers/attribute-encoder/)|N/A|Missing|
-[AttributeExploder](https://www.safe.com/transformers/attribute-exploder/)| | |
+[AttributeExploder](https://www.safe.com/transformers/attribute-exploder/)|Missing|N/A|
 [AttributeExposer](https://www.safe.com/transformers/attribute-exposer/)|N/A|N/A|Doesn't apply in QGIS
 [AttributeFileReader](https://www.safe.com/transformers/attribute-file-reader/)|Missing|Missing|
 [AttributeFileWriter](https://www.safe.com/transformers/attribute-file-writer/)|Extract binary field|N/A|
 [AttributeFilter](https://www.safe.com/transformers/attribute-filter/)|Extract by attribute, Feature filter|N/A|
-[AttributeKeeper](https://www.safe.com/transformers/attribute-keeper/)|||Not currently possible, but desirable for flexible models
+[AttributeKeeper](https://www.safe.com/transformers/attribute-keeper/)|Missing|N/A|Not currently possible, but highly desirable for flexible models
 [AttributeManager](https://www.safe.com/transformers/attribute-manager/)|Refactor fields|N/A|
-[AttributePivoter](https://www.safe.com/transformers/attribute-pivoter/)|||possibly covered by "statistics by categories"
+[AttributePivoter](https://www.safe.com/transformers/attribute-pivoter/)|Statistics by categories|N/A|
 [AttributeRangeFilter](https://www.safe.com/transformers/attribute-range-filter/)|||
 [AttributeRangeMapper](https://www.safe.com/transformers/attribute-range-mapper/)|||
 [AttributeRemover](https://www.safe.com/transformers/attribute-remover/)|Delete fields|N/A|

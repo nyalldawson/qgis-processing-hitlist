@@ -51,35 +51,35 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [AttributeKeeper](https://www.safe.com/transformers/attribute-keeper/)|Missing|N/A|Not currently possible, but highly desirable for flexible models
 [AttributeManager](https://www.safe.com/transformers/attribute-manager/)|Refactor fields|N/A|
 [AttributePivoter](https://www.safe.com/transformers/attribute-pivoter/)|Statistics by categories|N/A|
-[AttributeRangeFilter](https://www.safe.com/transformers/attribute-range-filter/)|||
-[AttributeRangeMapper](https://www.safe.com/transformers/attribute-range-mapper/)|||
+[AttributeRangeFilter](https://www.safe.com/transformers/attribute-range-filter/)|Missing|N/A|
+[AttributeRangeMapper](https://www.safe.com/transformers/attribute-range-mapper/)|Missing|N/A|
 [AttributeRemover](https://www.safe.com/transformers/attribute-remover/)|Delete fields|N/A|
-[AttributeRenamer](https://www.safe.com/transformers/attribute-renamer/)|Missing|N/A|only possible using refactor fields, but that approach is not flexible
+[AttributeRenamer](https://www.safe.com/transformers/attribute-renamer/)|Rename field|N/A|
 [AttributeReprojector](https://www.safe.com/transformers/attribute-reprojector/)|N/A|transform|
 [AttributeRounder](https://www.safe.com/transformers/attribute-rounder/)|N/A|round|
-[AttributeSplitter](https://www.safe.com/transformers/attribute-splitter/)|N/A|string_to_array|
+[AttributeSplitter](https://www.safe.com/transformers/attribute-splitter/)|Split features by character|string_to_array|
 [AttributeTrimmer](https://www.safe.com/transformers/attribute-trimmer/)|N/A|trim|
-[AttributeValidator](https://www.safe.com/transformers/attribute-validator/)|||
-[AttributeValueMapper](https://www.safe.com/transformers/attribute-value-mapper/)|||
-[AutodeskA360Connector](https://www.safe.com/transformers/autodesk-a360-connector/)|||
+[AttributeValidator](https://www.safe.com/transformers/attribute-validator/)|Missing|N/A|
+[AttributeValueMapper](https://www.safe.com/transformers/attribute-value-mapper/)|Missing|'map' functions|
+[AutodeskA360Connector](https://www.safe.com/transformers/autodesk-a360-connector/)|Missing|N/A|3rd party plugin candidate
 [BaseConverter](https://www.safe.com/transformers/base-converter/)|N/A|Missing|
 [BinaryDecoder](https://www.safe.com/transformers/binary-decoder/)|N/A|Missing|
 [BinaryEncoder](https://www.safe.com/transformers/binary-encoder/)|N/A|Missing|
-[BMGReprojector](https://www.safe.com/transformers/bmgreprojector/)|||
+[BMGReprojector](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/bmgreprojector.htm)|N/A|N/A|Reprojection always uses the proj library
 [BoundingBoxAccumulator](https://www.safe.com/transformers/bounding-box-accumulator/)|Extract layer extent|N/A|
 [BoundingBoxReplacer](https://www.safe.com/transformers/bounding-box-replacer/)|Bounding boxes|bounds|
 [BoundsExtractor](https://www.safe.com/transformers/bounds-extractor/)|N/A|x_min, x_max, y_min, y_max|Should add z/m min/max too
-[BoxConnector](https://www.safe.com/transformers/box-connector/)|||
+[BoxConnector](https://www.safe.com/transformers/box-connector/)|Missing|N/A|3rd party plugin candidate
 [Bufferer](https://www.safe.com/transformers/bufferer/)|Buffer|buffer|
-[BulkAttributeRemover](https://www.safe.com/transformers/bulk-attribute-remover/)|||
-[BulkAttributeRenamer](https://www.safe.com/transformers/bulk-attribute-renamer/)|||
-[CenterLineReplacer](https://www.safe.com/transformers/center-line-replacer/)|||needs algorithm, non trivial!
+[BulkAttributeRemover](https://www.safe.com/transformers/bulk-attribute-remover/)|Missing|N/A|
+[BulkAttributeRenamer](https://www.safe.com/transformers/bulk-attribute-renamer/)|Missing|N/A|
+[CenterLineReplacer](https://www.safe.com/transformers/center-line-replacer/)|Missing|Missing|No reliable algorithm publicly available, non trivial!
 [CenterPointExtractor](https://www.safe.com/transformers/center-point-extractor/)|centroid, point on surface, pole of inaccessibility|centroid, point_on_surface, pole_of_inaccessibility|
-[CenterPointReplacer](https://www.safe.com/transformers/center-point-replacer/)|||
+[CenterPointReplacer](https://www.safe.com/transformers/center-point-replacer/)|centroid, point on surface, pole of inaccessibility|centroid, point_on_surface, pole_of_inaccessibility|
 [ChangeDetector](https://www.safe.com/transformers/change-detector/)|Detect dataset changes|N/A|
 [CharacterCodeExtractor](https://www.safe.com/transformers/character-code-extractor/)|N/A|Missing|
 [CharacterCodeReplacer](https://www.safe.com/transformers/character-code-replacer/)|N/A|char|
-[ChartGenerator](https://www.safe.com/transformers/chart-generator/)|||
+[ChartGenerator](https://www.safe.com/transformers/chart-generator/)|Bar plot, box plot, etc|N/A|Better served by the 3rd party "DataPlotly" plugin
 [Chopper](https://www.safe.com/transformers/chopper/)|||
 [CircularityCalculator](https://www.safe.com/transformers/circularity-calculator/)|Missing|N/A|
 [Clipper](https://www.safe.com/transformers/clipper/)|clip|intersection|

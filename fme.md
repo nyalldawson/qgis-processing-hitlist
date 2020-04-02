@@ -100,15 +100,15 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [CoordinateSystemSetter](https://www.safe.com/transformers/coordinate-system-setter/)|Assign projection|N/A|
 [Counter](https://www.safe.com/transformers/counter/)|Add autoincremental field|N/A|
 [CRCCalculator](https://www.safe.com/transformers/crccalculator/)|N/A|Missing|
-[Creator](https://www.safe.com/transformers/creator/)|||
-[CSGBuilder](https://www.safe.com/transformers/csgbuilder/)|||
-[CSGEvaluator](https://www.safe.com/transformers/csgevaluator/)|||
-[CsmapAttributeReprojector](https://www.safe.com/transformers/csmap-attribute-reprojector/)|||
-[CsmapReprojector](https://www.safe.com/transformers/csmap-reprojector/)|||
-[Curvefitter](https://www.safe.com/transformers/curvefitter/)|||
-[DatabaseDeleter](https://www.safe.com/transformers/database-deleter/)|||
-[DatabaseJoiner](https://www.safe.com/transformers/database-joiner/)|||
-[DatabaseUpdater](https://www.safe.com/transformers/database-updater/)|||
+[Creator](https://www.safe.com/transformers/creator/)|Geometry by expression|N/A|
+[CSGBuilder](https://www.safe.com/transformers/csg-builder/)|Missing|Missing|
+[CSGEvaluator](https://www.safe.com/transformers/csg-evaluator/)|Missing|Missing|
+[CsmapAttributeReprojector](https://www.safe.com/transformers/csmap-attribute-reprojector/)|N/A|N/A|QGIS always uses the proj library
+[CsmapReprojector](https://www.safe.com/transformers/csmap-reprojector/)|N/A|N/A|QGIS always uses the proj libray
+[Curvefitter](https://www.safe.com/transformers/curvefitter/)|Missing|Missing|Port from PostGIS? Partial work at https://github.com/nyalldawson/QGIS/tree/convert_to_curves
+[DatabaseDeleter](https://www.safe.com/transformers/database-deleter/)|Missing|N/A|
+[DatabaseJoiner](https://www.safe.com/transformers/database-joiner/)|Join attributes by \*|N/A|
+[DatabaseUpdater](https://www.safe.com/transformers/database-updater/)|Missing|N/A|
 [DateTimeCalculator](https://www.safe.com/transformers/date-time-calculator/)|N/A|Misc functions|
 [DateTimeConverter](https://www.safe.com/transformers/date-time-converter/)|||
 [DateTimeStamper](https://www.safe.com/transformers/date-time-stamper/)|N/A|epoch(), now()|

@@ -157,33 +157,33 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [FMEServerNotifier](https://www.safe.com/transformers/fmeserver-notifier/)|N/A|N/A|
 [FMEServerResource](https://www.safe.com/transformers/fmeserver-resource/)|N/A|N/A|
 [FTPCaller](https://www.safe.com/transformers/ftpcaller/)|Missing|N/A|
-[GCMMessenger](https://www.safe.com/transformers/gcmmessenger/)|||
+[GCMMessenger](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/gcmmessenger.htm)|Missing|N/A|3rd party plugin candidate
 [Generalizer](https://www.safe.com/transformers/generalizer/)|Simplify, smooth|simplify, smooth|
-[Geocoder](https://www.safe.com/transformers/geocoder/)|||
-[GeographicBufferer](https://www.safe.com/transformers/geographic-bufferer/)|||
+[Geocoder](https://www.safe.com/transformers/geocoder/)|Missing|Missing|3rd party plugin candidate, exposing geocoding via different services
+[GeographicBufferer](https://www.safe.com/transformers/geographic-bufferer/)|Missing|Missing|
 [GeometryCoercer](https://www.safe.com/transformers/geometry-coercer/)|Convert geometry type|N/A|
-[GeometryColorSetter](https://www.safe.com/transformers/geometry-color-setter/)|||
+[GeometryColorSetter](https://www.safe.com/transformers/geometry-color-setter/)|N/A|N/A|
 [GeometryExtractor](https://www.safe.com/transformers/geometry-extractor/)|N/A|geom_to_wkt|
-[GeometryFilter](https://www.safe.com/transformers/geometry-filter/)|Missing|N/A|
-[GeometryInstantiator](https://www.safe.com/transformers/geometry-instantiator/)|||
-[GeometryPartExtractor](https://www.safe.com/transformers/geometry-part-extractor/)|||
-[GeometryPropertyExtractor](https://www.safe.com/transformers/geometry-property-extractor/)|||
-[GeometryPropertyRemover](https://www.safe.com/transformers/geometry-property-remover/)|||
-[GeometryPropertyRenamer](https://www.safe.com/transformers/geometry-property-renamer/)|||
-[GeometryPropertySetter](https://www.safe.com/transformers/geometry-property-setter/)|||
-[GeometryRefiner](https://www.safe.com/transformers/geometry-refiner/)|||
+[GeometryFilter](https://www.safe.com/transformers/geometry-filter/)|Filter by geometry type|N/A|
+[GeometryInstantiator](https://www.safe.com/transformers/geometry-instantiator/)|Affine transform, Array of translated features|N/A|
+[GeometryPartExtractor](https://www.safe.com/transformers/geometry-part-extractor/)|Missing|geometry_n|
+[GeometryPropertyExtractor](https://www.safe.com/transformers/geometry-property-extractor/)|N/A|Many|
+[GeometryPropertyRemover](https://www.safe.com/transformers/geometry-property-remover/)|Missing|Missing|
+[GeometryPropertyRenamer](https://www.safe.com/transformers/geometry-property-renamer/)|Missing|Missing|
+[GeometryPropertySetter](https://www.safe.com/transformers/geometry-property-setter/)|Missing|Missing|
+[GeometryRefiner](https://www.safe.com/transformers/geometry-refiner/)|N/A|N/A|
 [GeometryRemover](https://www.safe.com/transformers/geometry-remover/)|Drop geometries|N/A|
 [GeometryReplacer](https://www.safe.com/transformers/geometry-replacer/)|Geometry by expression|geom_from_wkt, etc|
 [GeometryValidator](https://www.safe.com/transformers/geometry-validator/)|Validate geometries|is_valid|
-[GeoRSSFeatureComposer](https://www.safe.com/transformers/geo-rssfeature-composer/)|||
-[GeoRSSFeatureReader](https://www.safe.com/transformers/geo-rssfeature-reader/)|||
-[GMLFeatureComposer](https://www.safe.com/transformers/gmlfeature-composer/)|||
-[GOIDGenerator](https://www.safe.com/transformers/goidgenerator/)|||
-[GoogleDriveConnector](https://www.safe.com/transformers/google-drive-connector/)|||
-[GridInquestIIReprojector](https://www.safe.com/transformers/grid-inquest-iireprojector/)|||
-[GridInquestReprojector](https://www.safe.com/transformers/grid-inquest-reprojector/)|||
-[GtransAttributeReprojector](https://www.safe.com/transformers/gtrans-attribute-reprojector/)|||
-[GtransReprojector](https://www.safe.com/transformers/gtrans-reprojector/)|||
+[GeoRSSFeatureComposer](https://www.safe.com/transformers/geo-rss-feature-composer/)|N/A|Missing|
+[GeoRSSFeatureReader](https://www.safe.com/transformers/geo-rss-feature-reader/)|Inbuilt vector handling|Missing|
+[GMLFeatureComposer](https://www.safe.com/transformers/gmlfeature-composer/)|N/A|geom_from_gml|
+[GOIDGenerator](https://www.safe.com/transformers/goid-generator/)|Missing|Missing|
+[GoogleDriveConnector](https://www.safe.com/transformers/google-drive-connector/)|Missing|N/A|3rd party plugin candidate
+[GridInquestIIReprojector](https://www.safe.com/transformers/grid-in-quest-ii-reprojector/)|N/A|N/A|QGIS always uses the PROJ library for reprojection
+[GridInquestReprojector](https://www.safe.com/transformers/grid-in-quest-ii-reprojector/)|N/A|N/A|QGIS always uses the PROJ library for reprojection
+[GtransAttributeReprojector](https://www.safe.com/transformers/gtrans-attribute-reprojector/)|N/A|N/A|QGIS always uses the PROJ library for reprojection
+[GtransReprojector](https://www.safe.com/transformers/gtrans-reprojector/)|N/A|N/A|QGIS always uses the PROJ library for reprojection
 [HDFSConnector](https://www.safe.com/transformers/hdfsconnector/)|||
 [HoleCounter](https://www.safe.com/transformers/hole-counter/)|N/A|num_interior_rings|
 [HTMLExtractor](https://www.safe.com/transformers/htmlextractor/)|||

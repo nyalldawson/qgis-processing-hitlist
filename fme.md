@@ -7,15 +7,15 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [2DBoxReplacer](https://www.safe.com/transformers/2d-box-replacer/)|N/A|Needs expression function to create rectangles|
 [2DEllipseReplacer](https://www.safe.com/transformers/2d-ellipse-replacer/)|N/A|Missing|
 [2DForcer](https://www.safe.com/transformers/2d-forcer/)|Drop Z Value|Missing|
-[2DGridAccumulator](https://www.safe.com/transformers/2d-grid-accumulator/)| | |
+[2DGridAccumulator](https://www.safe.com/transformers/2d-grid-accumulator/)|Missing|N/A|
 [2DGridCreator](https://www.safe.com/transformers/2d-grid-creator/)|Create grid|N/A|
-[3DAffiner](https://www.safe.com/transformers/3d-affiner/)|||
-[3DArcReplacer](https://www.safe.com/transformers/3d-arc-replacer/)|||
+[3DAffiner](https://www.safe.com/transformers/3d-affiner/)|Missing|Missing|
+[3DArcReplacer](https://www.safe.com/transformers/3d-arc-replacer/)|Missing|Missing|
 [3DForcer](https://www.safe.com/transformers/3d-forcer/)|Set Z Value|Missing|
 [3DInterpolator](https://www.safe.com/transformers/3d-interpolator/)|Missing|N/A|Also desirable for m values
-[3DRotator](https://www.safe.com/transformers/3d-rotator/)|||
+[3DRotator](https://www.safe.com/transformers/3d-rotator/)|Missing|Missing|
 [Affiner](https://www.safe.com/transformers/affiner/)|Affine transform|Missing|
-[AffineWarper](https://www.safe.com/transformers/affine-warper/)|||
+[AffineWarper](https://www.safe.com/transformers/affine-warper/)|Missing|N/A|Would use gdal to perform warp via gcps -- could expose more than just affine transformation. Possibly aided by Lutra's upcoming work improving the QGIS georeferencer.
 [AggregateFilter](https://www.safe.com/transformers/aggregate-filter/)|Missing|"is_multipart" function missing|
 [Aggregator](https://www.safe.com/transformers/aggregator/)|Aggregate, Collect geometries|collect|
 [AnchoredSnapper](https://www.safe.com/transformers/anchored-snapper/)|Snap geometries to layer|Missing|Performance issues

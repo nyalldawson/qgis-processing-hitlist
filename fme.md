@@ -80,24 +80,24 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [CharacterCodeExtractor](https://www.safe.com/transformers/character-code-extractor/)|N/A|Missing|
 [CharacterCodeReplacer](https://www.safe.com/transformers/character-code-replacer/)|N/A|char|
 [ChartGenerator](https://www.safe.com/transformers/chart-generator/)|Bar plot, box plot, etc|N/A|Better served by the 3rd party "DataPlotly" plugin
-[Chopper](https://www.safe.com/transformers/chopper/)|||
-[CircularityCalculator](https://www.safe.com/transformers/circularity-calculator/)|Missing|N/A|
+[Chopper](https://www.safe.com/transformers/chopper/)|Subdivide, Explode Lines|segments_to_lines, Missing subdivide function|
+[CircularityCalculator](https://www.safe.com/transformers/circularity-calculator/)|Missing|Missing|
 [Clipper](https://www.safe.com/transformers/clipper/)|clip|intersection|
-[Cloner](https://www.safe.com/transformers/cloner/)|||
+[Cloner](https://www.safe.com/transformers/cloner/)|Array of translated features|N/A|
 [ClosedCurveFilter](https://www.safe.com/transformers/closed-curve-filter/)|N/A|is_closed|
-[CommonLocalReprojector](https://www.safe.com/transformers/common-local-reprojector/)|||
-[CommonSegmentFinder](https://www.safe.com/transformers/common-segment-finder/)|||
+[CommonLocalReprojector](https://www.safe.com/transformers/common-local-reprojector/)|Missing|Missing|would need a way to transform using a custom WKT or proj string
+[CommonSegmentFinder](https://www.safe.com/transformers/common-segment-finder/)|Missing|Missing|GEOS library exposes this functionality, but not exposed through QGIS
 [ContourGenerator](https://www.safe.com/transformers/contour-generator/)|GDAL Contours|N/A|
 [ConvexityFilter](https://www.safe.com/transformers/convexity-filter/)|N/A|Needs "is_convex"/"is_concave" expression functions|
-[CoordinateConcatenator](https://www.safe.com/transformers/coordinate-concatenator/)|||
+[CoordinateConcatenator](https://www.safe.com/transformers/coordinate-concatenator/)|Missing|Possible via array iteration functions, but not easily|
 [CoordinateExtractor](https://www.safe.com/transformers/coordinate-extractor/)|Add x/y fields to layer|x/y/etc|
-[CoordinateReplacer](https://www.safe.com/transformers/coordinate-replacer/)|||
+[CoordinateReplacer](http://docs.safe.com/fme/2018.0/html/FME_Desktop_Documentation/FME_Transformers/Transformers/coordinatereplacer.htm)|N/A|Missing|
 [CoordinateRounder](https://www.safe.com/transformers/coordinate-rounder/)|Snap points to grid|Missing|
 [CoordinateSwapper](https://www.safe.com/transformers/coordinate-swapper/)|Swap x and y coordinates|flip_coordinates|
-[CoordinateSystemDescription](https://www.safe.com/transformers/coordinate-system-description/)|||
-[CoordinateSystemExtractor](https://www.safe.com/transformers/coordinate-system-extractor/)|||
-[CoordinateSystemRemover](https://www.safe.com/transformers/coordinate-system-remover/)|||
-[CoordinateSystemSetter](https://www.safe.com/transformers/coordinate-system-setter/)|||
+[CoordinateSystemDescriptionConverter](https://www.safe.com/transformers/coordinate-system-description-converter/)|Missing|Missing|
+[CoordinateSystemExtractor](https://www.safe.com/transformers/coordinate-system-extractor/)|Missing|Missing|
+[CoordinateSystemRemover](https://www.safe.com/transformers/coordinate-system-remover/)|Missing|Missing|
+[CoordinateSystemSetter](https://www.safe.com/transformers/coordinate-system-setter/)|Assign projection|N/A|
 [Counter](https://www.safe.com/transformers/counter/)|Add autoincremental field|N/A|
 [CRCCalculator](https://www.safe.com/transformers/crccalculator/)|N/A|Missing|
 [Creator](https://www.safe.com/transformers/creator/)|||

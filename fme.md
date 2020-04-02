@@ -229,24 +229,24 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [LineCloser](https://www.safe.com/transformers/line-closer/)|Missing|Missing|
 [LineCombiner](https://www.safe.com/transformers/line-combiner/)|Merge lines|line_merge|
 [LineExtender](https://www.safe.com/transformers/line-extender/)|Extend lines|extend|
-[LineOnAreaOverlayer](https://www.safe.com/transformers/line-on-area-overlayer/)|Union||
-[LineOnLineOverlayer](https://www.safe.com/transformers/line-on-line-overlayer/)|Union||
-[ListBasedFeatureMerger](https://www.safe.com/transformers/list-based-feature-merger/)|||
-[ListBuilder](https://www.safe.com/transformers/list-builder/)|||
-[ListConcatenator](https://www.safe.com/transformers/list-concatenator/)|||
-[ListCopier](https://www.safe.com/transformers/list-copier/)|||
-[ListDuplicateRemover](https://www.safe.com/transformers/list-duplicate-remover/)|||
-[ListElementCounter](https://www.safe.com/transformers/list-element-counter/)|||
-[ListExploder](https://www.safe.com/transformers/list-exploder/)|||
-[ListExpressionPopulator](https://www.safe.com/transformers/list-expression-populator/)|||
-[ListHistogrammer](https://www.safe.com/transformers/list-histogrammer/)|||
-[ListIndexer](https://www.safe.com/transformers/list-indexer/)|||
-[ListPopulator](https://www.safe.com/transformers/list-populator/)|||
-[ListRangeExtractor](https://www.safe.com/transformers/list-range-extractor/)|||
-[ListRenamer](https://www.safe.com/transformers/list-renamer/)|||
-[ListSearcher](https://www.safe.com/transformers/list-searcher/)|||
-[ListSorter](https://www.safe.com/transformers/list-sorter/)|||
-[ListSummer](https://www.safe.com/transformers/list-summer/)|||
+[LineOnAreaOverlayer](https://www.safe.com/transformers/line-on-area-overlayer/)|Union|N/A|
+[LineOnLineOverlayer](https://www.safe.com/transformers/line-on-line-overlayer/)|Union|N/A|
+[ListBasedFeatureMerger](https://www.safe.com/transformers/list-based-feature-merger/)|N/A|array and aggregate functions|
+[ListBuilder](https://www.safe.com/transformers/list-builder/)|N/A|array and aggregate functions|
+[ListConcatenator](https://www.safe.com/transformers/list-concatenator/)|N/A|array_to_string|
+[ListCopier](https://www.safe.com/transformers/list-copier/)|N/A|attributes|
+[ListDuplicateRemover](https://www.safe.com/transformers/list-duplicate-remover/)|N/A|array_distinct|
+[ListElementCounter](https://www.safe.com/transformers/list-element-counter/)|N/A|array_length|
+[ListExploder](https://www.safe.com/transformers/list-exploder/)|Missing|N/A|
+[ListExpressionPopulator](https://www.safe.com/transformers/list-expression-populator/)|N/A|array_foreach|
+[ListHistogrammer](https://www.safe.com/transformers/list-histogrammer/)|N/A|Missing|
+[ListIndexer](https://www.safe.com/transformers/list-indexer/)|N/A|array_get|
+[ListPopulator](https://www.safe.com/transformers/list-populator/)|N/A|array|
+[ListRangeExtractor](https://www.safe.com/transformers/list-range-extractor/)|N/A|Achievable via array_sort, but direct min/max functions desirable|
+[ListRenamer](https://www.safe.com/transformers/list-renamer/)|N/A|N/A|Doesn't apply in QGIS
+[ListSearcher](https://www.safe.com/transformers/list-searcher/)|N/A|array_find|
+[ListSorter](https://www.safe.com/transformers/list-sorter/)|N/A|array_sort|
+[ListSummer](https://www.safe.com/transformers/list-summer/)|N/A|Missing|
 [LocalCoordinateSystemSetter](https://www.safe.com/transformers/local-coordinate-system-setter/)|||
 [Logger](https://www.safe.com/transformers/logger/)|||
 [LogMessageStreamer](https://www.safe.com/transformers/log-message-streamer/)|||

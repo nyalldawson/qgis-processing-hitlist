@@ -256,13 +256,13 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [MapTextLabeller](https://www.safe.com/transformers/map-text-labeller/)|N/A|N/A|
 [MapTextStyler](https://www.safe.com/transformers/map-text-styler/)|N/A|N/A|
 [Matcher](https://www.safe.com/transformers/matcher/)|Delete duplicate geometries, Delete duplicates by attribute|N/A|
-[MeasureExtractor](https://www.safe.com/transformers/measure-extractor/)|Line substring, Extract specific vertices, Interpolate point on line|line_substring, line_interpolate_point|
-[MeasureGenerator](https://www.safe.com/transformers/measure-generator/)|Missing|line_locate_point|
-[MeasureRemover](https://www.safe.com/transformers/measure-remover/)|||
-[MeasureSetter](https://www.safe.com/transformers/measure-setter/)|||
-[MeshMerger](https://www.safe.com/transformers/mesh-merger/)|||
-[MeshSimplifier](https://www.safe.com/transformers/mesh-simplifier/)|||
-[MGRSToLatLongConverter](https://www.safe.com/transformers/mgrsto-lat-long-converter/)|||
+[MeasureExtractor](https://www.safe.com/transformers/measure-extractor/)|Line substring, Extract specific vertices, Interpolate point on line, Extract M values|line_substring, line_interpolate_point, m|
+[MeasureGenerator](https://www.safe.com/transformers/measure-generator/)|Set M value, Set M value from raster|line_locate_point|
+[MeasureRemover](https://www.safe.com/transformers/measure-remover/)|Drop M/Z values, Filter vertices by M value|N/A|
+[MeasureSetter](https://www.safe.com/transformers/measure-setter/)|Set M value, Set M value from raster|Missing|
+[MeshMerger](https://www.safe.com/transformers/mesh-merger/)|Missing|N/A|
+[MeshSimplifier](https://www.safe.com/transformers/mesh-simplifier/)|Missing|N/A|
+[MGRSToLatLongConverter](https://www.safe.com/transformers/mgrsto-lat-long-converter/)|Missing|Missing|
 [MinimumAreaForcer](https://www.safe.com/transformers/minimum-area-forcer/)|||
 [MinimumSpanningCircle](https://www.safe.com/transformers/minimum-spanning-circle/)|||
 [Replacer](https://www.safe.com/transformers/replacer/)|||

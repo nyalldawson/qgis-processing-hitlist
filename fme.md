@@ -316,15 +316,15 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [PointCloudFilter](https://www.safe.com/transformers/point-cloud-filter/)|Via pdal or lastools plugins|N/A|
 [PointCloudMerger](https://www.safe.com/transformers/point-cloud-merger/)|Via pdal or lastools plugins|N/A|
 [PointCloudOnRasterComponentSetter](https://www.safe.com/transformers/point-cloud-on-raster-component-setter/)|Via pdal or lastools plugins|N/A|
-[PointCloudPropertyExtractor](https://www.safe.com/transformers/point-cloud-property-extractor/)|||
-[PointCloudReplacer](https://www.safe.com/transformers/point-cloud-replacer/)|||
-[PointCloudSimplifier](https://www.safe.com/transformers/point-cloud-simplifier/)|||
-[PointCloudSorter](https://www.safe.com/transformers/point-cloud-sorter/)|||
-[PointCloudSplitter](https://www.safe.com/transformers/point-cloud-splitter/)|||
-[PointCloudStatistics](https://www.safe.com/transformers/point-cloud-statistics/)|||
-[PointCloudSurfaceBuilder](https://www.safe.com/transformers/point-cloud-surface-builder/)|||
-[PointCloudThinner](https://www.safe.com/transformers/point-cloud-thinner/)|||
-[PointCloudTransformation](https://www.safe.com/transformers/point-cloud-transformation/)|||
+[PointCloudPropertyExtractor](https://www.safe.com/transformers/point-cloud-property-extractor/)|Via pdal or lastools plugins|N/A|
+[PointCloudReplacer](https://www.safe.com/transformers/point-cloud-replacer/)|Via pdal or lastools plugins|N/A|
+[PointCloudSimplifier](https://www.safe.com/transformers/point-cloud-simplifier/)|Via pdal or lastools plugins|N/A|
+[PointCloudSorter](https://www.safe.com/transformers/point-cloud-sorter/)|Via pdal or lastools plugins|N/A|
+[PointCloudSplitter](https://www.safe.com/transformers/point-cloud-splitter/)|Via pdal or lastools plugins|N/A|
+[PointCloudStatisticsCalculator](https://www.safe.com/transformers/point-cloud-statistics-calculator/)|Via pdal or lastools plugins|N/A|
+[PointCloudSurfaceBuilder](https://www.safe.com/transformers/point-cloud-surface-builder/)|Via pdal or lastools plugins|N/A|
+[PointCloudThinner](https://www.safe.com/transformers/point-cloud-thinner/)|Via pdal or lastools plugins|N/A|
+[PointCloudTransformationApplier](https://www.safe.com/transformers/point-cloud-transformation-applier/)|Via pdal or lastools plugins|N/A|
 [PointOnAreaOverlayer](https://www.safe.com/transformers/point-on-area-overlayer/)|||
 [PointOnLineOverlayer](https://www.safe.com/transformers/point-on-line-overlayer/)|||
 [PointOnPointOverlayer](https://www.safe.com/transformers/point-on-point-overlayer/)|||

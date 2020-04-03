@@ -223,7 +223,7 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [LatLongToMGRSConverter](https://www.safe.com/transformers/lat-long-to-mgrs-converter/)|Missing|Missing|
 [LeftRightSpatialCalculator](https://www.safe.com/transformers/left-right-spatial-calculator/)|Missing|Missing|Raw API already exists, but not exposed to QGIS Processing or Expressions
 [LengthCalculator](https://www.safe.com/transformers/length-calculator/)|Add geometry attributes|$length|
-[LengthToPointCalculator](https://www.safe.com/transformers/length-to-point-calculator/)|Missing|Missing|
+[LengthToPointCalculator](https://www.safe.com/transformers/length-to-point-calculator/)|Missing|line_locate_point|
 [LicenseChecker](https://www.safe.com/transformers/license-checker/)|N/A|N/A|Definitely not required!
 [LineBuilder](https://www.safe.com/transformers/line-builder/)|Points to paths|N/A|
 [LineCloser](https://www.safe.com/transformers/line-closer/)|Missing|Missing|
@@ -247,17 +247,17 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [ListSearcher](https://www.safe.com/transformers/list-searcher/)|N/A|array_find|
 [ListSorter](https://www.safe.com/transformers/list-sorter/)|N/A|array_sort|
 [ListSummer](https://www.safe.com/transformers/list-summer/)|N/A|Missing|
-[LocalCoordinateSystemSetter](https://www.safe.com/transformers/local-coordinate-system-setter/)|||
-[Logger](https://www.safe.com/transformers/logger/)|||
-[LogMessageStreamer](https://www.safe.com/transformers/log-message-streamer/)|||
-[MapboxStyler](https://www.safe.com/transformers/mapbox-styler/)|||
-[MapInfoStyler](https://www.safe.com/transformers/map-info-styler/)|||
-[MapnikRasterizer](https://www.safe.com/transformers/mapnik-rasterizer/)|||
-[MapTextLabeller](https://www.safe.com/transformers/map-text-labeller/)|||
-[MapTextStyler](https://www.safe.com/transformers/map-text-styler/)|||
-[Matcher](https://www.safe.com/transformers/matcher/)|||
-[MeasureExtractor](https://www.safe.com/transformers/measure-extractor/)|||
-[MeasureGenerator](https://www.safe.com/transformers/measure-generator/)|||
+[LocalCoordinateSystemSetter](https://www.safe.com/transformers/local-coordinate-system-setter/)|Assign projection|N/A|
+[Logger](https://www.safe.com/transformers/logger/)|Missing|N/A|
+[LogMessageStreamer](https://www.safe.com/transformers/log-message-streamer/)|Save log to file|N/A|
+[MapboxStyler](https://www.safe.com/transformers/mapbox-styler/)|Missing|N/A|
+[MapInfoStyler](https://www.safe.com/transformers/map-info-styler/)|Missing|N/A|
+[MapnikRasterizer](https://www.safe.com/transformers/mapnik-rasterizer/)|N/A|N/A|
+[MapTextLabeller](https://www.safe.com/transformers/map-text-labeller/)|N/A|N/A|
+[MapTextStyler](https://www.safe.com/transformers/map-text-styler/)|N/A|N/A|
+[Matcher](https://www.safe.com/transformers/matcher/)|Delete duplicate geometries, Delete duplicates by attribute|N/A|
+[MeasureExtractor](https://www.safe.com/transformers/measure-extractor/)|Line substring, Extract specific vertices, Interpolate point on line|line_substring, line_interpolate_point|
+[MeasureGenerator](https://www.safe.com/transformers/measure-generator/)|Missing|line_locate_point|
 [MeasureRemover](https://www.safe.com/transformers/measure-remover/)|||
 [MeasureSetter](https://www.safe.com/transformers/measure-setter/)|||
 [MeshMerger](https://www.safe.com/transformers/mesh-merger/)|||

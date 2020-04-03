@@ -272,7 +272,7 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [MRF2DDuplicateRemover](https://www.safe.com/transformers/mrf2d-duplicate-remover/)|Delete duplicate geometries|N/A|
 [MRF2DExtender](https://www.safe.com/transformers/mrf2d-extender/)|Snap geometries to layer using Move End Points Only mode|N/A|
 [MRF2DGeneralizer](https://www.safe.com/transformers/mrf2d-generalizer/)|Simplify is a partial match|simplify|
-[MRF2DIntersector](https://www.safe.com/transformers/mrf2d-intersector/)|Intersection, Line intersections|i|
+[MRF2DIntersector](https://www.safe.com/transformers/mrf2d-intersector/)|Intersection, Line intersections|intersection|
 [MRF2DJoiner](https://www.safe.com/transformers/mrf2d-joiner/)|Merge lines|line_merge|
 [MRF2DShortGeometryRemover](https://www.safe.com/transformers/mrf2d-short-geometry-remover/)|Missing|N/A|
 [MRF3DCleaner](https://www.safe.com/transformers/mrf3d-cleaner/)|Missing|N/A|3rd party plugin candidate
@@ -281,17 +281,17 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [MultipleGeometrySetter](https://www.safe.com/transformers/multiple-geometry-setter/)|Collect geometries, Promote to Multipart|collect_geometries|
 [NeighborFinder](https://www.safe.com/transformers/neighbor-finder/)|Join attributes by nearest|N/A|
 [NeighborhoodAggregator](https://www.safe.com/transformers/neighborhood-aggregator/)|DBSCAN clustering, K-means clustering, v.cluster|N/A|
-[NeighborPairFinder](https://www.safe.com/transformers/neighbor-pair-finder/)|||
-[NetworkCostCalculator](https://www.safe.com/transformers/network-cost-calculator/)|||
-[NetworkFlowOrientor](https://www.safe.com/transformers/network-flow-orientor/)|||
-[NetworkTopologyCalculator](https://www.safe.com/transformers/network-topology-calculator/)|||
-[NullAttributeMapper](https://www.safe.com/transformers/null-attribute-mapper/)|||
-[NumericRasterizer](https://www.safe.com/transformers/numeric-rasterizer/)|||
-[OffsetCurveGenerator](https://www.safe.com/transformers/offset-curve-generator/)|||
-[Offsetter](https://www.safe.com/transformers/offsetter/)|||
-[OneDriveConnector](https://www.safe.com/transformers/one-drive-connector/)|||
-[OrientationExtractor](https://www.safe.com/transformers/orientation-extractor/)|||
-[Orientor](https://www.safe.com/transformers/orientor/)|||
+[NeighborPairFinder](https://www.safe.com/transformers/neighbor-pair-finder/)|Missing|N/A|
+[NetworkCostCalculator](https://www.safe.com/transformers/network-cost-calculator/)|Shortest Path algorithms|N/A|
+[NetworkFlowOrientor](https://www.safe.com/transformers/network-flow-orientor/)|Missing|N/A|
+[NetworkTopologyCalculator](https://www.safe.com/transformers/network-topology-calculator/)|Missing|N/A|
+[NullAttributeMapper](https://www.safe.com/transformers/null-attribute-mapper/)|Missing|N/A|Possible using field calculator with QGIS expressions
+[NumericRasterizer](https://www.safe.com/transformers/numeric-rasterizer/)|GDAL Rasterize|N/A|
+[OffsetCurveGenerator](https://www.safe.com/transformers/offset-curve-generator/)|Offset lines|offset_curve|
+[Offsetter](https://www.safe.com/transformers/offsetter/)|Translate|translate|
+[OneDriveConnector](https://www.safe.com/transformers/one-drive-connector/)|Missing|N/A|3rd party plugin candidate
+[OrientationExtractor](https://www.safe.com/transformers/orientation-extractor/)|N/A|Missing|
+[Orientor](https://www.safe.com/transformers/orientor/)|Force right hand rule|force_rhr|
 [ParameterFetcher](https://www.safe.com/transformers/parameter-fetcher/)|||
 [PartCounter](https://www.safe.com/transformers/part-counter/)|||
 [PathBuilder](https://www.safe.com/transformers/path-builder/)|||

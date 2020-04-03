@@ -356,49 +356,45 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [RasterCheckpointer](https://www.safe.com/transformers/raster-checkpointer/)|N/A|N/A|
 [RasterConsumer](https://www.safe.com/transformers/raster-consumer/)|N/A|N/A|
 [RasterDEMGenerator](https://www.safe.com/transformers/raster-dem-generator/)|TIN Interpolation|N/A|
-[RasterExpressionEvaluator](https://www.safe.com/transformers/raster-expression-evaluator/)|||
-[RasterExtentsCoercer](https://www.safe.com/transformers/raster-extents-coercer/)|||
-[RasterExtractor](https://www.safe.com/transformers/raster-extractor/)|||
-[RasterGCPExtractor](https://www.safe.com/transformers/raster-gcpextractor/)|||
-[RasterGCPSetter](https://www.safe.com/transformers/raster-gcpsetter/)|||
-[RasterGeoreferencer](https://www.safe.com/transformers/raster-georeferencer/)|||
-[RasterHillshader](https://www.safe.com/transformers/raster-hillshader/)|||
-[RasterInterpretationCoercer](https://www.safe.com/transformers/raster-interpretation-coercer/)|||
-[RasterMosaicker](https://www.safe.com/transformers/raster-mosaicker/)|||
-[RasterNumericCreator](https://www.safe.com/transformers/raster-numeric-creator/)|||
-[RasterPaletteAdder](https://www.safe.com/transformers/raster-palette-adder/)|||
-[RasterPaletteExtractor](https://www.safe.com/transformers/raster-palette-extractor/)|||
-[RasterPaletteGenerator](https://www.safe.com/transformers/raster-palette-generator/)|||
-[RasterPaletteInterpretation](https://www.safe.com/transformers/raster-palette-interpretation/)|||
-[RasterPaletteNodataSetter](https://www.safe.com/transformers/raster-palette-nodata-setter/)|||
-[RasterPaletteRemover](https://www.safe.com/transformers/raster-palette-remover/)|||
-[RasterPaletteResolver](https://www.safe.com/transformers/raster-palette-resolver/)|||
-[RasterPropertyExtractor](https://www.safe.com/transformers/raster-property-extractor/)|||
-[RasterPyramider](https://www.safe.com/transformers/raster-pyramider/)|||
-[RasterReplacer](https://www.safe.com/transformers/raster-replacer/)|||
-[RasterResampler](https://www.safe.com/transformers/raster-resampler/)|||
-[RasterRGBCreator](https://www.safe.com/transformers/raster-rgbcreator/)|||
-[RasterRotationApplier](https://www.safe.com/transformers/raster-rotation-applier/)|||
-[RasterSelector](https://www.safe.com/transformers/raster-selector/)|||
-[RasterSingularCellValue](https://www.safe.com/transformers/raster-singular-cell-value/)|||
-[RasterSlopeCalculator](https://www.safe.com/transformers/raster-slope-calculator/)|||
-[RasterSubsetter](https://www.safe.com/transformers/raster-subsetter/)|||
-[RasterTiler](https://www.safe.com/transformers/raster-tiler/)|||
-[RasterToPolygonCoercer](https://www.safe.com/transformers/raster-to-polygon-coercer/)|||
-[RCaller](https://www.safe.com/transformers/rcaller/)|||
-[Recorder](https://www.safe.com/transformers/recorder/)|||
-[ReframeReprojector](https://www.safe.com/transformers/reframe-reprojector/)|||
-[ReprojectAngleCalculator](https://www.safe.com/transformers/reproject-angle-calculator/)|||
-[ReprojectLengthCalculator](https://www.safe.com/transformers/reproject-length-calculator/)|||
-[Reprojector](https://www.safe.com/transformers/reprojector/)|||
-[Rotator](https://www.safe.com/transformers/rotator/)|||
-[RubberSheeter](https://www.safe.com/transformers/rubber-sheeter/)|||
-[S3Connector](https://www.safe.com/transformers/s3connector/)|||
-[S3Deleter](https://www.safe.com/transformers/s3deleter/)|||
-[S3Downloader](https://www.safe.com/transformers/s3downloader/)|||
-[S3ObjectLister](https://www.safe.com/transformers/s3object-lister/)|||
-[S3Uploader](https://www.safe.com/transformers/s3uploader/)|||
-[SalesforceConnector](https://www.safe.com/transformers/salesforce-connector/)|||
+[RasterExpressionEvaluator](https://www.safe.com/transformers/raster-expression-evaluator/)|Raster calculator|N/A|
+[RasterExtentsCoercer](https://www.safe.com/transformers/raster-extents-coercer/)|Extract layer extent|layer_property using 'extent' property|
+[RasterExtractor](https://www.safe.com/transformers/raster-extractor/)|Missing|N/A|
+[RasterGCPExtractor](https://www.safe.com/transformers/raster-gcpextractor/)|Missing|N/A|
+[RasterGCPSetter](https://www.safe.com/transformers/raster-gcpsetter/)|Missing|N/A|
+[RasterGeoreferencer](https://www.safe.com/transformers/raster-georeferencer/)|Missing|N/A|
+[RasterHillshader](https://www.safe.com/transformers/raster-hillshader/)|Hillshade|N/A|
+[RasterInterpretationCoercer](https://www.safe.com/transformers/raster-interpretation-coercer/)|GDAL Translate|N/A|
+[RasterMosaicker](https://www.safe.com/transformers/raster-mosaicker/)|GDAL Merge|N/A|
+[RasterNumericCreator](https://www.safe.com/transformers/raster-numeric-creator/)|Create Constant Raster Layer|N/A|
+[RasterPaletteAdder](https://www.safe.com/transformers/raster-palette-adder/)|Missing|N/A|
+[RasterPaletteExtractor](https://www.safe.com/transformers/raster-palette-extractor/)|Missing|N/A|
+[RasterPaletteGenerator](https://www.safe.com/transformers/raster-palette-generator/)|Missing|N/A|
+[RasterPaletteInterpretationCoercer](https://www.safe.com/transformers/raster-palette-interpretation-coercer/)|Missing|N/A|A small subset of functionality avialable via GDAL Translate
+[RasterPaletteNodataSetter](https://www.safe.com/transformers/raster-palette-nodata-setter/)|Missing|N/A|
+[RasterPaletteRemover](https://www.safe.com/transformers/raster-palette-remover/)|Missing|N/A|
+[RasterPaletteResolver](https://www.safe.com/transformers/raster-palette-resolver/)|Missing|N/A|
+[RasterPropertyExtractor](https://www.safe.com/transformers/raster-property-extractor/)|Raster layer statistics|layer_property|
+[RasterPyramider](https://www.safe.com/transformers/raster-pyramider/)|Build overviews (pyramids)|N/A|
+[RasterReplacer](https://www.safe.com/transformers/raster-replacer/)|N/A|N/A|
+[RasterResampler](https://www.safe.com/transformers/raster-resampler/)|GDAL Translate, GDAL Warp|N/A|
+[RasterRGBCreator](https://www.safe.com/transformers/raster-rgb-creator/)|GDAL Rasterize|N/A|
+[RasterRotationApplier](https://www.safe.com/transformers/raster-rotation-applier/)|Missing|N/A|
+[RasterSelector](https://www.safe.com/transformers/raster-selector/)|Missing|N/A|
+[RasterSingularCellValue](https://www.safe.com/transformers/raster-singular-cell-value-calculator/)|Raster calculator|N/A|
+[RasterSlopeCalculator](https://www.safe.com/transformers/raster-slope-calculator/)|Slope|N/A|
+[RasterSubsetter](https://www.safe.com/transformers/raster-subsetter/)|Clip raster by extent, Clip raster by mask layer|N/A|
+[RasterTiler](https://www.safe.com/transformers/raster-tiler/)|Retile, gdal2tiles|N/A|
+[RasterToPolygonCoercer](https://www.safe.com/transformers/raster-to-polygon-coercer/)|Polygonize|N/A|
+[RCaller](https://www.safe.com/transformers/rcaller/)|Via Processing "R" Provider plugin|N/A|
+[Recorder](https://www.safe.com/transformers/recorder/)|N/A|N/A|
+[ReframeReprojector](https://www.safe.com/transformers/reframe-reprojector/)|N/A|N/A|QGIS always uses the Proj library for transformation
+[ReprojectAngleCalculator](https://www.safe.com/transformers/reproject-angle-calculator/)|Missing|Missing|
+[ReprojectLengthCalculator](https://www.safe.com/transformers/reproject-length-calculator/)|Missing|Missing|
+[Reprojector](https://www.safe.com/transformers/reprojector/)|Reproject layer|transform|
+[Rotator](https://www.safe.com/transformers/rotator/)|Rotate|rotate|
+[RubberSheeter](https://www.safe.com/transformers/rubber-sheeter/)|Missing|N/A|
+S3Connector|Inbuilt from GDAL|N/A|
+[SalesforceConnector](https://www.safe.com/transformers/salesforce-connector/)|Missing|N/A|3rd party plugin candidate
 [Sampler](https://www.safe.com/transformers/sampler/)|||
 [Scaler](https://www.safe.com/transformers/scaler/)|||
 [SchemaMapper](https://www.safe.com/transformers/schema-mapper/)|||

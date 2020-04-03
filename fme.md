@@ -292,15 +292,15 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [OneDriveConnector](https://www.safe.com/transformers/one-drive-connector/)|Missing|N/A|3rd party plugin candidate
 [OrientationExtractor](https://www.safe.com/transformers/orientation-extractor/)|N/A|Missing|
 [Orientor](https://www.safe.com/transformers/orientor/)|Force right hand rule|force_rhr|
-[ParameterFetcher](https://www.safe.com/transformers/parameter-fetcher/)|||
-[PartCounter](https://www.safe.com/transformers/part-counter/)|||
-[PathBuilder](https://www.safe.com/transformers/path-builder/)|||
-[PathSplitter](https://www.safe.com/transformers/path-splitter/)|||
-[PDFPageFormatter](https://www.safe.com/transformers/pdfpage-formatter/)|||
-[PDFStyler](https://www.safe.com/transformers/pdfstyler/)|||
-[PinterestConnector](https://www.safe.com/transformers/pinterest-connector/)|||
-[PlanarityFilter](https://www.safe.com/transformers/planarity-filter/)|||
-[Player](https://www.safe.com/transformers/player/)|||
+[ParameterFetcher](https://www.safe.com/transformers/parameter-fetcher/)|Field calculator with input parameters|N/A|
+[PartCounter](https://www.safe.com/transformers/part-counter/)|N/A|num_geometries|
+[PathBuilder](https://www.safe.com/transformers/path-builder/)|Missing|N/A|
+[PathSplitter](https://www.safe.com/transformers/path-splitter/)|Explode lines|segments_to_lines|
+[PDFPageFormatter](https://www.safe.com/transformers/pdf-page-formatter/)|Missing|N/A|Inbuilt algorithms for exporting layouts are desirable
+[PDFStyler](https://www.safe.com/transformers/pdf-styler/)|Missing|N/A|Requires inbuilt algorithm for exporting layout to GeoPDF with attributes
+[PinterestConnector](https://docs.safe.com/fme/2018.1/html/FME_Desktop_Documentation/FME_Transformers/Transformers/pinterestconnector.htm)|Missing|N/A|3rd party plugin candidate
+[PlanarityFilter](https://www.safe.com/transformers/planarity-filter/)|N/A|Missing|Requires 'is_planar' expression function
+[Player](https://www.safe.com/transformers/player/)|N/A|N/A|
 [PointCloudCoercer](https://www.safe.com/transformers/point-cloud-coercer/)|||
 [PointCloudCombiner](https://www.safe.com/transformers/point-cloud-combiner/)|||
 [PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||

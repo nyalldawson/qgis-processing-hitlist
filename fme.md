@@ -309,14 +309,13 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [PointCloudComponentRemover](https://www.safe.com/transformers/point-cloud-component-remover/)|Via pdal or lastools plugins|N/A|
 [PointCloudComponentRenamer](https://www.safe.com/transformers/point-cloud-component-renamer/)|Via pdal or lastools plugins|N/A|
 [PointCloudComponentTypeCoercer](https://www.safe.com/transformers/point-cloud-component-type-coercer/)|Via pdal or lastools plugins|N/A|
-[PointCloudConsumer](https://www.safe.com/transformers/point-cloud-consumer/)|||
-[PointCloudCreator](https://www.safe.com/transformers/point-cloud-creator/)|||
-[PointCloudExpression](https://www.safe.com/transformers/point-cloud-expression/)|||
-[PointCloudExtractor](https://www.safe.com/transformers/point-cloud-extractor/)|||
-[PointCloudFilter](https://www.safe.com/transformers/point-cloud-filter/)|||
-[PointCloudMerger](https://www.safe.com/transformers/point-cloud-merger/)|||
-[PointCloudOnRaster](https://www.safe.com/transformers/point-cloud-on-raster/)|||
-[ComponentSetter](https://www.safe.com/transformers/component-setter/)|||
+[PointCloudConsumer](https://www.safe.com/transformers/point-cloud-consumer/)|Via pdal or lastools plugins|N/A|
+[PointCloudCreator](https://www.safe.com/transformers/point-cloud-creator/)|Via pdal or lastools plugins|N/A|
+[PointCloudExpressionEvaluator](https://www.safe.com/transformers/point-cloud-expression-evaluator/)|Via pdal or lastools plugins|N/A|
+[PointCloudExtractor](https://www.safe.com/transformers/point-cloud-extractor/)|Via pdal or lastools plugins|N/A|
+[PointCloudFilter](https://www.safe.com/transformers/point-cloud-filter/)|Via pdal or lastools plugins|N/A|
+[PointCloudMerger](https://www.safe.com/transformers/point-cloud-merger/)|Via pdal or lastools plugins|N/A|
+[PointCloudOnRasterComponentSetter](https://www.safe.com/transformers/point-cloud-on-raster-component-setter/)|Via pdal or lastools plugins|N/A|
 [PointCloudPropertyExtractor](https://www.safe.com/transformers/point-cloud-property-extractor/)|||
 [PointCloudReplacer](https://www.safe.com/transformers/point-cloud-replacer/)|||
 [PointCloudSimplifier](https://www.safe.com/transformers/point-cloud-simplifier/)|||

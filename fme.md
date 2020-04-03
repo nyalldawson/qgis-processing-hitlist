@@ -301,14 +301,14 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [PinterestConnector](https://docs.safe.com/fme/2018.1/html/FME_Desktop_Documentation/FME_Transformers/Transformers/pinterestconnector.htm)|Missing|N/A|3rd party plugin candidate
 [PlanarityFilter](https://www.safe.com/transformers/planarity-filter/)|N/A|Missing|Requires 'is_planar' expression function
 [Player](https://www.safe.com/transformers/player/)|N/A|N/A|
-[PointCloudCoercer](https://www.safe.com/transformers/point-cloud-coercer/)|||
-[PointCloudCombiner](https://www.safe.com/transformers/point-cloud-combiner/)|||
-[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
-[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
-[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
-[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
-[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
-[PointCloudComponent](https://www.safe.com/transformers/point-cloud-component/)|||
+[PointCloudCoercer](https://www.safe.com/transformers/point-cloud-coercer/)|Via pdal or lastools plugins|N/A|
+[PointCloudCombiner](https://www.safe.com/transformers/point-cloud-combiner/)|Via pdal or lastools plugins|N/A|
+[PointCloudComponentAdder](https://www.safe.com/transformers/point-cloud-component-adder/)|Via pdal or lastools plugins|N/A|
+[PointCloudComponentCopier](https://www.safe.com/transformers/point-cloud-component-copier/)|Via pdal or lastools plugins|N/A|
+[PointCloudComponentKeeper](https://www.safe.com/transformers/point-cloud-component-keeper/)|Via pdal or lastools plugins|N/A|
+[PointCloudComponentRemover](https://www.safe.com/transformers/point-cloud-component-remover/)|Via pdal or lastools plugins|N/A|
+[PointCloudComponentRenamer](https://www.safe.com/transformers/point-cloud-component-renamer/)|Via pdal or lastools plugins|N/A|
+[PointCloudComponentTypeCoercer](https://www.safe.com/transformers/point-cloud-component-type-coercer/)|Via pdal or lastools plugins|N/A|
 [PointCloudConsumer](https://www.safe.com/transformers/point-cloud-consumer/)|||
 [PointCloudCreator](https://www.safe.com/transformers/point-cloud-creator/)|||
 [PointCloudExpression](https://www.safe.com/transformers/point-cloud-expression/)|||

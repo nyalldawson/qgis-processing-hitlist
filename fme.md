@@ -325,37 +325,37 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [PointCloudSurfaceBuilder](https://www.safe.com/transformers/point-cloud-surface-builder/)|Via pdal or lastools plugins|N/A|
 [PointCloudThinner](https://www.safe.com/transformers/point-cloud-thinner/)|Via pdal or lastools plugins|N/A|
 [PointCloudTransformationApplier](https://www.safe.com/transformers/point-cloud-transformation-applier/)|Via pdal or lastools plugins|N/A|
-[PointOnAreaOverlayer](https://www.safe.com/transformers/point-on-area-overlayer/)|||
-[PointOnLineOverlayer](https://www.safe.com/transformers/point-on-line-overlayer/)|||
-[PointOnPointOverlayer](https://www.safe.com/transformers/point-on-point-overlayer/)|||
-[PointOnRasterValueExtractor](https://www.safe.com/transformers/point-on-raster-value-extractor/)|||
-[PointPropertyExtractor](https://www.safe.com/transformers/point-property-extractor/)|||
-[PointPropertySetter](https://www.safe.com/transformers/point-property-setter/)|||
-[PowerPointStyler](https://www.safe.com/transformers/power-point-styler/)|||
-[PythonCaller](https://www.safe.com/transformers/python-caller/)|||
-[PythonCreator](https://www.safe.com/transformers/python-creator/)|||
-[RandomNumberGenerator](https://www.safe.com/transformers/random-number-generator/)|||
-[RasterAspectCalculator](https://www.safe.com/transformers/raster-aspect-calculator/)|||
-[RasterBandAdder](https://www.safe.com/transformers/raster-band-adder/)|||
-[RasterBandCombiner](https://www.safe.com/transformers/raster-band-combiner/)|||
-[RasterBandInterpretation](https://www.safe.com/transformers/raster-band-interpretation/)|||
-[RasterBandKeeper](https://www.safe.com/transformers/raster-band-keeper/)|||
-[RasterBandMinMaxExtractor](https://www.safe.com/transformers/raster-band-min-max-extractor/)|||
-[RasterBandNameSetter](https://www.safe.com/transformers/raster-band-name-setter/)|||
-[RasterBandNodataRemover](https://www.safe.com/transformers/raster-band-nodata-remover/)|||
-[RasterBandNodataSetter](https://www.safe.com/transformers/raster-band-nodata-setter/)|||
-[RasterBandOrderer](https://www.safe.com/transformers/raster-band-orderer/)|||
-[RasterBandPropertyExtractor](https://www.safe.com/transformers/raster-band-property-extractor/)|||
-[RasterBandRemover](https://www.safe.com/transformers/raster-band-remover/)|||
-[RasterBandSeparator](https://www.safe.com/transformers/raster-band-separator/)|||
-[RasterCellCoercer](https://www.safe.com/transformers/raster-cell-coercer/)|||
-[RasterCellOriginSetter](https://www.safe.com/transformers/raster-cell-origin-setter/)|||
-[RasterCellValueCalculator](https://www.safe.com/transformers/raster-cell-value-calculator/)|||
-[RasterCellValueReplacer](https://www.safe.com/transformers/raster-cell-value-replacer/)|||
-[RasterCellValueRounder](https://www.safe.com/transformers/raster-cell-value-rounder/)|||
-[RasterCheckpointer](https://www.safe.com/transformers/raster-checkpointer/)|||
-[RasterConsumer](https://www.safe.com/transformers/raster-consumer/)|||
-[RasterDEMGenerator](https://www.safe.com/transformers/raster-demgenerator/)|||
+[PointOnAreaOverlayer](https://www.safe.com/transformers/point-on-area-overlayer/)|Join attributes by location|N/A|
+[PointOnLineOverlayer](https://www.safe.com/transformers/point-on-line-overlayer/)|Join attributes by location|N/A|
+[PointOnPointOverlayer](https://www.safe.com/transformers/point-on-point-overlayer/)|Join attributes by location|N/A|
+[PointOnRasterValueExtractor](https://www.safe.com/transformers/point-on-raster-value-extractor/)|Sample raster values|raster_value|
+[PointPropertyExtractor](https://www.safe.com/transformers/point-property-extractor/)|N/A|Mixed expression functions, e.g. radians, degrees|Rotation is treated just like normal attributes in QGIS
+[PointPropertySetter](https://www.safe.com/transformers/point-property-setter/)|Field calculator|Mixed expression functions, e.g. radians, degrees|Rotation is treated just like normal attributes in QGIS
+[PowerPointStyler](https://www.safe.com/transformers/power-point-styler/)|Missing|N/A|3rd party plugin candidate
+[PythonCaller](https://www.safe.com/transformers/python-caller/)|||Possible to create algorithms and expressions via Python. Desirable would be to allow Python scripts to be embedded inside a model.
+[PythonCreator](https://www.safe.com/transformers/python-creator/)|||Possible to create algorithms and expressions via Python. Desirable would be to allow Python scripts to be embedded inside a model.
+[RandomNumberGenerator](https://www.safe.com/transformers/random-number-generator/)|N/A|rand, randf|
+[RasterAspectCalculator](https://www.safe.com/transformers/raster-aspect-calculator/)|Aspect|N/A|
+[RasterBandAdder](https://www.safe.com/transformers/raster-band-adder/)|Missing|N/A|Possible via Create Constant Raster Layer and GDAL Merge algorithms, but a direct algorithm is desirable
+[RasterBandCombiner](https://www.safe.com/transformers/raster-band-combiner/)|GDAL Merge|N/A|
+[RasterBandInterpretationCoercer](https://www.safe.com/transformers/raster-band-interpretation-coercer/)|GDAL Translate|N/A|
+[RasterBandKeeper](https://www.safe.com/transformers/raster-band-keeper/)|Rearrange Bands|N/A|
+[RasterBandMinMaxExtractor](https://www.safe.com/transformers/raster-band-min-max-extractor/)|Raster layer statistics|raster_statistic|
+[RasterBandNameSetter](https://www.safe.com/transformers/raster-band-name-setter/)|Missing|N/A|
+[RasterBandNodataRemover](https://www.safe.com/transformers/raster-band-nodata-remover/)|Fill NoData Cells|N/A|
+[RasterBandNodataSetter](https://www.safe.com/transformers/raster-band-nodata-setter/)|Missing|N/A|
+[RasterBandOrderer](https://www.safe.com/transformers/raster-band-orderer/)|Rearrange Bands|N/A|
+[RasterBandPropertyExtractor](https://www.safe.com/transformers/raster-band-property-extractor/)|Missing|N/A|
+[RasterBandRemover](https://www.safe.com/transformers/raster-band-remover/)|Rearrange Bands|N/A|
+[RasterBandSeparator](https://www.safe.com/transformers/raster-band-separator/)|Rearrange Bands|N/A|
+[RasterCellCoercer](https://www.safe.com/transformers/raster-cell-coercer/)|Raster pixels to points, Raster pixels to polygons|N/A|
+[RasterCellOriginSetter](https://www.safe.com/transformers/raster-cell-origin-setter/)|Missing|N/A|
+[RasterCellValueCalculator](https://www.safe.com/transformers/raster-cell-value-calculator/)|Raster calculator|N/A|
+[RasterCellValueReplacer](https://www.safe.com/transformers/raster-cell-value-replacer/)|Reclassify by layer, Reclassify by table|N/A|
+[RasterCellValueRounder](https://www.safe.com/transformers/raster-cell-value-rounder/)|Missing|N/A|Possible via raster calculator, but simple algorithm is desirable
+[RasterCheckpointer](https://www.safe.com/transformers/raster-checkpointer/)|N/A|N/A|
+[RasterConsumer](https://www.safe.com/transformers/raster-consumer/)|N/A|N/A|
+[RasterDEMGenerator](https://www.safe.com/transformers/raster-dem-generator/)|TIN Interpolation|N/A|
 [RasterExpressionEvaluator](https://www.safe.com/transformers/raster-expression-evaluator/)|||
 [RasterExtentsCoercer](https://www.safe.com/transformers/raster-extents-coercer/)|||
 [RasterExtractor](https://www.safe.com/transformers/raster-extractor/)|||

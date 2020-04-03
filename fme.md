@@ -266,21 +266,21 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [MinimumAreaForcer](https://www.safe.com/transformers/minimum-area-forcer/)|Missing|Missing|
 [MinimumSpanningCircle](https://www.safe.com/transformers/minimum-spanning-circle-replacer/)|Minimum enclosing circles|minimal_circle|
 [ModuloCounter](https://www.safe.com/transformers/modulo-counter/)|Missing|Missing|
-[MRF2DCleaner](https://www.safe.com/transformers/mrf2d-cleaner/)|||
-[MRF2DConflator](https://www.safe.com/transformers/mrf2d-conflator/)|||
-[MRF2DDangleRemover](https://www.safe.com/transformers/mrf2d-dangle-remover/)|||
-[MRF2DDuplicateRemover](https://www.safe.com/transformers/mrf2d-duplicate-remover/)|||
-[MRF2DExtender](https://www.safe.com/transformers/mrf2d-extender/)|||
-[MRF2DGeneralizer](https://www.safe.com/transformers/mrf2d-generalizer/)|||
-[MRF2DIntersector](https://www.safe.com/transformers/mrf2d-intersector/)|||
-[MRF2DJoiner](https://www.safe.com/transformers/mrf2d-joiner/)|||
-[MRF2DShortGeometry](https://www.safe.com/transformers/mrf2d-short-geometry/)|||
-[MRF3DCleaner](https://www.safe.com/transformers/mrf3d-cleaner/)|||
-[MSWordStyler](https://www.safe.com/transformers/msword-styler/)|||
-[MultipleGeometryFilter](https://www.safe.com/transformers/multiple-geometry-filter/)|||
-[MultipleGeometrySetter](https://www.safe.com/transformers/multiple-geometry-setter/)|||
-[NeighborFinder](https://www.safe.com/transformers/neighbor-finder/)|||
-[NeighborhoodAggregator](https://www.safe.com/transformers/neighborhood-aggregator/)|||
+[MRF2DCleaner](https://www.safe.com/transformers/mrf2d-cleaner/)|Missing, partially covered by "Fix geometries"|N/A|3rd party plugin candidate
+[MRF2DConflator](https://www.safe.com/transformers/mrf2d-conflator/)|Missing|N/A|
+[MRF2DDangleRemover](https://www.safe.com/transformers/mrf2d-dangle-remover/)|v.clean using rmdangle works, but a native tool is desirable|N/A|
+[MRF2DDuplicateRemover](https://www.safe.com/transformers/mrf2d-duplicate-remover/)|Delete duplicate geometries|N/A|
+[MRF2DExtender](https://www.safe.com/transformers/mrf2d-extender/)|Snap geometries to layer using Move End Points Only mode|N/A|
+[MRF2DGeneralizer](https://www.safe.com/transformers/mrf2d-generalizer/)|Simplify is a partial match|simplify|
+[MRF2DIntersector](https://www.safe.com/transformers/mrf2d-intersector/)|Intersection, Line intersections|i|
+[MRF2DJoiner](https://www.safe.com/transformers/mrf2d-joiner/)|Merge lines|line_merge|
+[MRF2DShortGeometryRemover](https://www.safe.com/transformers/mrf2d-short-geometry-remover/)|Missing|N/A|
+[MRF3DCleaner](https://www.safe.com/transformers/mrf3d-cleaner/)|Missing|N/A|3rd party plugin candidate
+[MSWordStyler](https://www.safe.com/transformers/ms-word-styler/)|Missing|Missing|3rd party plugin candidate
+[MultipleGeometryFilter](https://www.safe.com/transformers/multiple-geometry-filter/)|Multiparts to singleparts|geometry_n|
+[MultipleGeometrySetter](https://www.safe.com/transformers/multiple-geometry-setter/)|Collect geometries, Promote to Multipart|collect_geometries|
+[NeighborFinder](https://www.safe.com/transformers/neighbor-finder/)|Join attributes by nearest|N/A|
+[NeighborhoodAggregator](https://www.safe.com/transformers/neighborhood-aggregator/)|DBSCAN clustering, K-means clustering, v.cluster|N/A|
 [NeighborPairFinder](https://www.safe.com/transformers/neighbor-pair-finder/)|||
 [NetworkCostCalculator](https://www.safe.com/transformers/network-cost-calculator/)|||
 [NetworkFlowOrientor](https://www.safe.com/transformers/network-flow-orientor/)|||

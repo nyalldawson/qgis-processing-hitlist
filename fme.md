@@ -1,5 +1,6 @@
 # Mapping of FME transformers to Processing algorithms or QGIS expressions
 
+N/A means "not applicable" in this context
 
 FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 ---|---|---|---

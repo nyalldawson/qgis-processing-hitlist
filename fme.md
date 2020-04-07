@@ -426,25 +426,25 @@ S3Connector|Inbuilt from GDAL|N/A|
 [StreamPriorityCalculator](https://www.safe.com/transformers/stream-priority-calculator/)|Missing|N/A|
 [StringCaseChanger](https://www.safe.com/transformers/string-case-changer/)|N/A|upper, lower, title|
 [StringConcatenator](https://www.safe.com/transformers/string-concatenator/)|String concatentation|concat, \|\||
-[StringFormatter](https://www.safe.com/transformers/string-formatter/)|||
-[StringLengthCalculator](https://www.safe.com/transformers/string-length-calculator/)|||
-[StringPadder](https://www.safe.com/transformers/string-padder/)|||
-[StringPairReplacer](https://www.safe.com/transformers/string-pair-replacer/)|||
-[StringReplacer](https://www.safe.com/transformers/string-replacer/)|||
-[StringSearcher](https://www.safe.com/transformers/string-searcher/)|||
-[SubstringExtractor](https://www.safe.com/transformers/substring-extractor/)|||
-[SummaryReporter](https://www.safe.com/transformers/summary-reporter/)|||
-[SurfaceBuilder](https://www.safe.com/transformers/surface-builder/)|||
-[SurfaceDissolver](https://www.safe.com/transformers/surface-dissolver/)|||
-[SurfaceDraper](https://www.safe.com/transformers/surface-draper/)|||
-[SurfaceFootprintReplacer](https://www.safe.com/transformers/surface-footprint-replacer/)|||
-[SurfaceModeller](https://www.safe.com/transformers/surface-modeller/)|||
-[SurfaceOnSurfaceOverlayer](https://www.safe.com/transformers/surface-on-surface-overlayer/)|||
-[SurfaceSplitter](https://www.safe.com/transformers/surface-splitter/)|||
-[SystemCaller](https://www.safe.com/transformers/system-caller/)|||
-[TclCaller](https://www.safe.com/transformers/tcl-caller/)|||
-[TCPIPReceiver](https://www.safe.com/transformers/tcpipreceiver/)|||
-[TCPIPSender](https://www.safe.com/transformers/tcpipsender/)|||
+[StringFormatter](https://www.safe.com/transformers/string-formatter/)|N/A|format|
+[StringLengthCalculator](https://www.safe.com/transformers/string-length-calculator/)|N/A|length|
+[StringPadder](https://www.safe.com/transformers/string-padder/)|N/A|lpad, rpad|
+[StringPairReplacer](https://www.safe.com/transformers/string-pair-replacer/)|N/A|missing|
+[StringReplacer](https://www.safe.com/transformers/string-replacer/)|N/A|replace, regex_replace|
+[StringSearcher](https://www.safe.com/transformers/string-searcher/)|N/A|regex_match, regex_substr|
+[SubstringExtractor](https://www.safe.com/transformers/substring-extractor/)|N/A|substr, left, right|
+[SummaryReporter](https://www.safe.com/transformers/summary-reporter/)|Missing|N/A|
+[SurfaceBuilder](https://www.safe.com/transformers/surface-builder/)|Missing|Missing|
+[SurfaceDissolver](https://www.safe.com/transformers/surface-dissolver/)|Missing|N/A|
+[SurfaceDraper](https://www.safe.com/transformers/surface-draper/)|Drape|N/A|
+[SurfaceFootprintReplacer](https://www.safe.com/transformers/surface-footprint-replacer/)|Missing|N/A|
+[SurfaceModeller](https://www.safe.com/transformers/surface-modeller/)|TIN Interpolation|N/A|
+[SurfaceOnSurfaceOverlayer](https://www.safe.com/transformers/surface-on-surface-overlayer/)|Missing|N/A|
+[SurfaceSplitter](https://www.safe.com/transformers/surface-splitter/)|Missing|N/A|
+[SystemCaller](https://www.safe.com/transformers/system-caller/)|Missing|N/A|
+[TclCaller](https://www.safe.com/transformers/tcl-caller/)|Missing|N/A|
+[TCPIPReceiver](https://www.safe.com/transformers/tcpip-receiver/)|Missing|N/A|
+[TCPIPSender](https://www.safe.com/transformers/tcpip-sender/)|Missing|N/A|
 [TempPathnameCreator](https://www.safe.com/transformers/temp-pathname-creator/)|||
 [Terminator](https://www.safe.com/transformers/terminator/)|||
 [Tester](https://www.safe.com/transformers/tester/)|||

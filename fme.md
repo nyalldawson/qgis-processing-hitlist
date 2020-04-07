@@ -395,37 +395,37 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [RubberSheeter](https://www.safe.com/transformers/rubber-sheeter/)|Missing|N/A|
 S3Connector|Inbuilt from GDAL|N/A|
 [SalesforceConnector](https://www.safe.com/transformers/salesforce-connector/)|Missing|N/A|3rd party plugin candidate
-[Sampler](https://www.safe.com/transformers/sampler/)|||
-[Scaler](https://www.safe.com/transformers/scaler/)|||
-[SchemaMapper](https://www.safe.com/transformers/schema-mapper/)|||
-[SecondOrderConformer](https://www.safe.com/transformers/second-order-conformer/)|||
-[SectorGenerator](https://www.safe.com/transformers/sector-generator/)|||
-[SharedItemAdder](https://www.safe.com/transformers/shared-item-adder/)|||
-[SharedItemIDExtractor](https://www.safe.com/transformers/shared-item-idextractor/)|||
-[SharedItemIDSetter](https://www.safe.com/transformers/shared-item-idsetter/)|||
-[SharedItemRetriever](https://www.safe.com/transformers/shared-item-retriever/)|||
-[SherbendGeneralizer](https://www.safe.com/transformers/sherbend-generalizer/)|||
-[ShortestPathFinder](https://www.safe.com/transformers/shortest-path-finder/)|||
-[SlackConnector](https://www.safe.com/transformers/slack-connector/)|||
-[Snapper](https://www.safe.com/transformers/snapper/)|||
-[Snipper](https://www.safe.com/transformers/snipper/)|||
-[SNSSender](https://www.safe.com/transformers/snssender/)|||
-[SolidBuilder](https://www.safe.com/transformers/solid-builder/)|||
-[Sorter](https://www.safe.com/transformers/sorter/)|||
-[SpatialFilter](https://www.safe.com/transformers/spatial-filter/)|||
-[SpatialRelator](https://www.safe.com/transformers/spatial-relator/)|||
-[SpikeRemover](https://www.safe.com/transformers/spike-remover/)|||
-[SQLCreator](https://www.safe.com/transformers/sqlcreator/)|||
-[SQLExecutor](https://www.safe.com/transformers/sqlexecutor/)|||
-[SQSDeleter](https://www.safe.com/transformers/sqsdeleter/)|||
-[SQSMessageCounter](https://www.safe.com/transformers/sqsmessage-counter/)|||
-[SQSReceiver](https://www.safe.com/transformers/sqsreceiver/)|||
-[SQSSender](https://www.safe.com/transformers/sqssender/)|||
-[StatisticsCalculator](https://www.safe.com/transformers/statistics-calculator/)|||
-[StreamOrderCalculator](https://www.safe.com/transformers/stream-order-calculator/)|||
-[StreamPriorityCalculator](https://www.safe.com/transformers/stream-priority-calculator/)|||
-[StringCaseChanger](https://www.safe.com/transformers/string-case-changer/)|||
-[StringConcatenator](https://www.safe.com/transformers/string-concatenator/)|||
+[Sampler](https://www.safe.com/transformers/sampler/)|Random extract, Random extract by subsets offer partial functionality|N/A|Missing "not sampled" outputs, non-randomized sampling
+[Scaler](https://www.safe.com/transformers/scaler/)|Affine transform|Missing|A dedicated algorithm (like the 'Rotation' algorithm) is desirable
+[SchemaMapper](https://www.safe.com/transformers/schema-mapper/)|Missing|N/A|
+[SecondOrderConformer](https://www.safe.com/transformers/second-order-conformer/)|Missing|Missing|
+[SectorGenerator](https://www.safe.com/transformers/sector-generator/)|Create wedge buffers|wedge_buffer|
+[SharedItemAdder](https://www.safe.com/transformers/shared-item-adder/)|Missing|N/A|QGIS equivalent would be "import to style database"
+[SharedItemIDExtractor](https://www.safe.com/transformers/shared-item-id-extractor/)|Missing|N/A|
+[SharedItemIDSetter](https://www.safe.com/transformers/shared-item-id-setter/)|Missing|N/A|
+[SharedItemRetriever](https://www.safe.com/transformers/shared-item-retriever/)|Create Categorized Renderer from Style|N/A|Missing other renderers
+[SherbendGeneralizer](https://www.safe.com/transformers/sherbend-generalizer/)|Missing|Missing|
+[ShortestPathFinder](https://www.safe.com/transformers/shortest-path-finder/)|Shortest Path Point to Point, etc|N/A|
+[SlackConnector](https://www.safe.com/transformers/slack-connector/)|Missing|N/A|3rd party plugin candidate
+[Snapper](https://www.safe.com/transformers/snapper/)|Snap geometries to layer|N/A|
+[Snipper](https://www.safe.com/transformers/snipper/)|Line substring is partial replacement (missing node/m value options)|line_substring|
+[SNSSender](https://www.safe.com/transformers/sns-sender/)|Missing|N/A|3rd party plugin candidate
+[SolidBuilder](https://www.safe.com/transformers/solid-builder/)|Missing|N/A|
+[Sorter](https://www.safe.com/transformers/sorter/)|Order by expression|N/A|
+[SpatialFilter](https://www.safe.com/transformers/spatial-filter/)|Extract by location|N/A|
+[SpatialRelator](https://www.safe.com/transformers/spatial-relator/)|Join attributes by location|relate|
+[SpikeRemover](https://www.safe.com/transformers/spike-remover/)|v.clean, Simplify with Visvaligam algorithm|simplify_vw|
+[SQLCreator](https://www.safe.com/transformers/sql-creator/)|Postgres execute and load SQL, Execute SQL|N/A|
+[SQLExecutor](https://www.safe.com/transformers/sql-executor/)|Execute SQL, Postgres Execute SQL, Spatialite Execute SQL|N/A|
+[SQSDeleter](https://www.safe.com/transformers/sqs-deleter/)|Missing|N/A|3rd party plugin candidate
+[SQSMessageCounter](https://www.safe.com/transformers/sqs-message-counter/)|Missing|N/A|3rd party plugin candidate
+[SQSReceiver](https://www.safe.com/transformers/sqs-receiver/)|Missing|N/A|3rd party plugin candidate
+[SQSSender](https://www.safe.com/transformers/sqs-sender/)|Missing|N/A|3rd party plugin candidate
+[StatisticsCalculator](https://www.safe.com/transformers/statistics-calculator/)|Basic statistics for fields, Statistics by Categories|N/A|
+[StreamOrderCalculator](https://www.safe.com/transformers/stream-order-calculator/)|Missing|N/A|Existing algorithms require a DEM, not destination node
+[StreamPriorityCalculator](https://www.safe.com/transformers/stream-priority-calculator/)|Missing|N/A|
+[StringCaseChanger](https://www.safe.com/transformers/string-case-changer/)|N/A|upper, lower, title|
+[StringConcatenator](https://www.safe.com/transformers/string-concatenator/)|String concatentation|concat, \|\||
 [StringFormatter](https://www.safe.com/transformers/string-formatter/)|||
 [StringLengthCalculator](https://www.safe.com/transformers/string-length-calculator/)|||
 [StringPadder](https://www.safe.com/transformers/string-padder/)|||

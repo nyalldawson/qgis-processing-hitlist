@@ -445,32 +445,32 @@ S3Connector|Inbuilt from GDAL|N/A|
 [TclCaller](https://www.safe.com/transformers/tcl-caller/)|Missing|N/A|
 [TCPIPReceiver](https://www.safe.com/transformers/tcpip-receiver/)|Missing|N/A|
 [TCPIPSender](https://www.safe.com/transformers/tcpip-sender/)|Missing|N/A|
-[TempPathnameCreator](https://www.safe.com/transformers/temp-pathname-creator/)|||
-[Terminator](https://www.safe.com/transformers/terminator/)|||
-[Tester](https://www.safe.com/transformers/tester/)|||
-[TestFilter](https://www.safe.com/transformers/test-filter/)|||
-[TextAdder](https://www.safe.com/transformers/text-adder/)|||
-[TextDecoder](https://www.safe.com/transformers/text-decoder/)|||
-[TextEncoder](https://www.safe.com/transformers/text-encoder/)|||
-[TextLocationExtractor](https://www.safe.com/transformers/text-location-extractor/)|||
-[TextPropertyExtractor](https://www.safe.com/transformers/text-property-extractor/)|||
-[TextPropertySetter](https://www.safe.com/transformers/text-property-setter/)|||
-[TextStroker](https://www.safe.com/transformers/text-stroker/)|||
-[TextureCoordinateSetter](https://www.safe.com/transformers/texture-coordinate-setter/)|||
-[Tiler](https://www.safe.com/transformers/tiler/)|||
-[TINGenerator](https://www.safe.com/transformers/tingenerator/)|||
-[TopologyBuilder](https://www.safe.com/transformers/topology-builder/)|||
-[TraitMerger](https://www.safe.com/transformers/trait-merger/)|||
-[TransporterReceiver](https://www.safe.com/transformers/transporter-receiver/)|||
-[TransporterSender](https://www.safe.com/transformers/transporter-sender/)|||
-[Triangulator](https://www.safe.com/transformers/triangulator/)|||
-[Tweeter](https://www.safe.com/transformers/tweeter/)|||
-[TweetSearcher](https://www.safe.com/transformers/tweet-searcher/)|||
-[TweetStreamer](https://www.safe.com/transformers/tweet-streamer/)|||
-[TwitterStatusFetcher](https://www.safe.com/transformers/twitter-status-fetcher/)|||
-[UUIDGenerator](https://www.safe.com/transformers/uuidgenerator/)|||
-[VariableRetriever](https://www.safe.com/transformers/variable-retriever/)|||
-[VariableSetter](https://www.safe.com/transformers/variable-setter/)|||
+[TempPathnameCreator](https://www.safe.com/transformers/temp-pathname-creator/)|N/A|Missing|
+[Terminator](https://www.safe.com/transformers/terminator/)|Raise exception|N/A|
+[Tester](https://www.safe.com/transformers/tester/)|Feature filter|N/A|
+[TestFilter](https://www.safe.com/transformers/test-filter/)|Feature filter|N/A|
+[TextAdder](https://www.safe.com/transformers/text-adder/)|N/A|N/A|
+[TextDecoder](https://www.safe.com/transformers/text-decoder/)|N/A|Missing|
+[TextEncoder](https://www.safe.com/transformers/text-encoder/)|N/A|Missing|
+[TextLocationExtractor](https://www.safe.com/transformers/text-location-extractor/)|N/A|N/A|
+[TextPropertyExtractor](https://www.safe.com/transformers/text-property-extractor/)|N/A|N/A|
+[TextPropertySetter](https://www.safe.com/transformers/text-property-setter/)|N/A|N/A|
+[TextStroker](https://www.safe.com/transformers/text-stroker/)|N/A|N/A|
+[TextureCoordinateSetter](https://www.safe.com/transformers/texture-coordinate-setter/)|Missing|N/A|No support for textures in QGIS 3d yet
+[Tiler](https://www.safe.com/transformers/tiler/)|Missing|N/A|
+[TINGenerator](https://www.safe.com/transformers/tin-generator/)|TIN interpolation|N/A|
+[TopologyBuilder](https://www.safe.com/transformers/topology-builder/)|Missing|N/A|
+[TraitMerger](https://www.safe.com/transformers/trait-merger/)|Missing|N/A|
+[TransporterReceiver](https://www.safe.com/transformers/transporter-receiver/)|N/A|N/A|
+[TransporterSender](https://www.safe.com/transformers/transporter-sender/)|N/A|N/A|
+[Triangulator](https://www.safe.com/transformers/triangulator/)|Tesselate|N/A|
+[Tweeter](https://www.safe.com/transformers/tweeter/)|Missing|N/A|3rd party plugin candidate
+[TweetSearcher](https://www.safe.com/transformers/tweet-searcher/)|Missing|N/A|3rd party plugin candidate
+[TweetStreamer](https://www.safe.com/transformers/tweet-streamer/)|Missing|N/A|3rd party plugin candidate
+[TwitterStatusFetcher](https://www.safe.com/transformers/twitter-status-fetcher/)|Missing|N/A|3rd party plugin candidate
+[UUIDGenerator](https://www.safe.com/transformers/uuidgenerator/)|N/A|uuid|
+[VariableRetriever](https://www.safe.com/transformers/variable-retriever/)|N/A|@...|
+[VariableSetter](https://www.safe.com/transformers/variable-setter/)|Missing|N/A|
 [VectorOnRasterOverlayer](https://www.safe.com/transformers/vector-on-raster-overlayer/)|||
 [VertexCounter](https://www.safe.com/transformers/vertex-counter/)|||
 [VertexCreator](https://www.safe.com/transformers/vertex-creator/)|||

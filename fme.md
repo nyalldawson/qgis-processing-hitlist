@@ -78,7 +78,7 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [CenterPointExtractor](https://www.safe.com/transformers/center-point-extractor/)|centroid, point on surface, pole of inaccessibility|centroid, point_on_surface, pole_of_inaccessibility|
 [CenterPointReplacer](https://www.safe.com/transformers/center-point-replacer/)|centroid, point on surface, pole of inaccessibility|centroid, point_on_surface, pole_of_inaccessibility|
 [ChangeDetector](https://www.safe.com/transformers/change-detector/)|Detect dataset changes|N/A|
-[CharacterCodeExtractor](https://www.safe.com/transformers/character-code-extractor/)|N/A|Missing|
+[CharacterCodeExtractor](https://www.safe.com/transformers/character-code-extractor/)|N/A|ascii (QGIS 3.14)|
 [CharacterCodeReplacer](https://www.safe.com/transformers/character-code-replacer/)|N/A|char|
 [ChartGenerator](https://www.safe.com/transformers/chart-generator/)|Bar plot, box plot, etc|N/A|Better served by the 3rd party "DataPlotly" plugin
 [Chopper](https://www.safe.com/transformers/chopper/)|Subdivide, Explode Lines|segments_to_lines, Missing subdivide function|
@@ -353,7 +353,7 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [RasterCellOriginSetter](https://www.safe.com/transformers/raster-cell-origin-setter/)|Missing|N/A|
 [RasterCellValueCalculator](https://www.safe.com/transformers/raster-cell-value-calculator/)|Raster calculator|N/A|
 [RasterCellValueReplacer](https://www.safe.com/transformers/raster-cell-value-replacer/)|Reclassify by layer, Reclassify by table|N/A|
-[RasterCellValueRounder](https://www.safe.com/transformers/raster-cell-value-rounder/)|Missing|N/A|Possible via raster calculator, but simple algorithm is desirable
+[RasterCellValueRounder](https://www.safe.com/transformers/raster-cell-value-rounder/)|Missing|Round raster (QGIS 3.14)|
 [RasterCheckpointer](https://www.safe.com/transformers/raster-checkpointer/)|N/A|N/A|
 [RasterConsumer](https://www.safe.com/transformers/raster-consumer/)|N/A|N/A|
 [RasterDEMGenerator](https://www.safe.com/transformers/raster-dem-generator/)|TIN Interpolation|N/A|

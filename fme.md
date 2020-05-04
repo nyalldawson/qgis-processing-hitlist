@@ -69,7 +69,7 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [BMGReprojector](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/bmgreprojector.htm)|N/A|N/A|Reprojection always uses the proj library
 [BoundingBoxAccumulator](https://www.safe.com/transformers/bounding-box-accumulator/)|Extract layer extent|N/A|
 [BoundingBoxReplacer](https://www.safe.com/transformers/bounding-box-replacer/)|Bounding boxes|bounds|
-[BoundsExtractor](https://www.safe.com/transformers/bounds-extractor/)|N/A|x_min, x_max, y_min, y_max|Should add z/m min/max too
+[BoundsExtractor](https://www.safe.com/transformers/bounds-extractor/)|N/A|x_min, x_max, y_min, y_max (z_min, z_max, m_min, m_max added in 3.14)|
 [BoxConnector](https://www.safe.com/transformers/box-connector/)|Missing|N/A|3rd party plugin candidate
 [Bufferer](https://www.safe.com/transformers/bufferer/)|Buffer|buffer|
 [BulkAttributeRemover](https://www.safe.com/transformers/bulk-attribute-remover/)|Missing|N/A|

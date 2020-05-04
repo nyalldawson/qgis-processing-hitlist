@@ -17,7 +17,7 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [3DRotator](https://www.safe.com/transformers/3d-rotator/)|Missing|Missing|
 [Affiner](https://www.safe.com/transformers/affiner/)|Affine transform|Missing|
 [AffineWarper](https://www.safe.com/transformers/affine-warper/)|Missing|N/A|Would use gdal to perform warp via gcps -- could expose more than just affine transformation. Possibly aided by Lutra's upcoming work improving the QGIS georeferencer.
-[AggregateFilter](https://www.safe.com/transformers/aggregate-filter/)|Missing|"is_multipart" function missing|
+[AggregateFilter](https://www.safe.com/transformers/aggregate-filter/)|Missing|is_multipart (3.14)|
 [Aggregator](https://www.safe.com/transformers/aggregator/)|Aggregate, Collect geometries|collect|
 [AnchoredSnapper](https://www.safe.com/transformers/anchored-snapper/)|Snap geometries to layer|Missing|Performance issues
 [AngleConverter](https://www.safe.com/transformers/angle-converter/)|N/A|radians/degrees|

@@ -20,7 +20,7 @@ FME Transformer|QGIS Processing Alg|QGIS Expression|Notes
 [AggregateFilter](https://www.safe.com/transformers/aggregate-filter/)|Missing|N/A
 [Aggregator](https://www.safe.com/transformers/aggregator/) |Aggregate, Collect geometries|collect
 [AmazonAthenaConnector](https://www.safe.com/transformers/amazon-athena-connector/)|Missing|N/A
-[AnchoredSnapper](https://www.safe.com/transformers/anchored-snapper/)|Snap geometries to layer|Missing|Performance issues |
+[AnchoredSnapper](https://www.safe.com/transformers/anchored-snapper/)|Snap geometries to layer|Missing|
 [AngleConverter](https://www.safe.com/transformers/angle-converter/)|Missing|Needs expression functions to create circular strings
 [AngularityCalculator](https://www.safe.com/transformers/angularity-calculator/)|Missing|Needs expression functions to create circular strings
 [AppearanceExtractor](https://www.safe.com/transformers/appearance-extractor/) |Missing|Needs expression functions to create circular strings|Doesn't apply in QGIS|
